@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'acumin_pro_condensed_blackRg';
+    src: url('../fonts/acumin_pro_condensed_black-webfont.woff2') format('woff2'),
+         url('../fonts/acumin_pro_condensed_black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root{
+    --color-white:#ffffff;
+    --color-black:#000000;
+    --color-azul-light:#BAD9E2;
+    --color-azul-rey:#004480;
+    --color-azul-rey-dark:#00173E;
+    --color-gris-white:#DFDFDF;
+    --font-acumin-variable-concept:'acumin_pro_condensed_blackRg';
+    --font-acumin-pro-condensed: acumin-pro-condensed, sans-serif;
+}
+
+body{
+    background-color: lightcoral;
+    font-size: 16px;
+}
+
+    /* FONTS */
+h1, h2, h3, h4{
+    font-family: var(--font-acumin-variable-concept);
+}
+p, a{
+    font-family: var(--font-acumin-pro-condensed);
+}
+.tit_general{
+    font-size: 2rem;
+    font-family: var(--font-acumin-variable-concept);
+}
+.txt_general{
+    font-family: var(--font-acumin-pro-condensed);
+    font-size: 1rem;
+    font-weight: normal;
+    
+}
+
+/* __NAVEGACIÓN__ */
+#menu_principal{
+    background-color: var(--color-azul-rey);
+}
+#menu_principal > div::before, #menu_pringit scipal > div::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    left: 0;
+    height: 1px;
+    background-color: var(--color-azul-rey-dark);
+}
+#menu_principal > div::before{
+    top: 60px;
+}
+#menu_principal > div::after{
+    bottom: 0px;
+}
+
+#navbarNav{
+    justify-content: flex-end!important;
+}
+.navbar{
+    padding: 20px 0px;
+}
+    /* NAV TOP */
+.menu_social_top{
+    background-color: var(--color-azul-rey);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.list_social, .list_contacto{
+    padding: 12px 0px;
+    display: inherit;
+    padding-left: 0;
+    list-style: none;
+    margin-bottom: 0;
+    z-index: 99999;
+}
+.list_contacto svg{
+    margin-right: 6px;
+}
+.item_contact{
+    margin: 0px 12px;
+}
+
+
+
+/* __HOME PAGE__ */
+    /* NUESTROS PRODUCTOS */
+#animals{
+    padding: 34px 0px 28px 0px;
+    border-top: 1px solid var(--color-gris-white);
+    border-bottom: 1px solid var(--color-gris-white);
+}
+.list_animals{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding-left: 0;
+}
+
+    /* CARDS */
+.card_product{
+    box-sizing: border-box;
+    background-color: var(--color-white);
+    width: 100%;
+    height: auto;
+    padding: 28px;
+    border-radius: 20px;
+}
+.cont_card_icon img{
+    background-color: var(--color-azul-light);
+    padding: 10px;
+    border-radius: 12px;
+}
