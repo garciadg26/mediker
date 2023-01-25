@@ -12,45 +12,200 @@
     --color-azul-txt-slide:#D1E8FF;
     --color-azul-light:#BAD9E2;
     --color-azul-rey:#004480;
+    --color-azul-marino:#002E57;
     --color-azul-normal:#0094D4;
+    --color-azul-normal-claro:#67B9E3;
     --color-azul-rey-dark:#00173E;
+    --color-gris-claro-azulado:#EEF0F3;
+    --color-gris:#929292;
     --color-gris-white:#DFDFDF;
+    --color-naranja-claro:#F3DED2;
     --font-acumin-pro-condensed: acumin-pro-condensed, sans-serif;
+    /* COLORES PARA PRODUCTOS ESPECIALIZADOS */
+    --color-desparasitantes-inyectables:#8C1627;
+    --color-antibioticos-quimioterapicos:#C92530;
+    --color-hormonales:#D5722D;
+    --color-productos-solubles:#683880;
+    --color-otc:#9FC456;
+    --color-desparasitantes-orales:#459B5A;
+    --color-electrolitos-y-vitaminicos:#0093D0;
+    --color-desparasitantes-solubles:#49ACA5;
+    --color-intramamarios:#CA397C;
+    --color-desinfectantes-sanitizantes:#0A2E5E;
+    --color-sueros-y-soluciones:#8D94C6;
+    --color-premezclas:#800042;
+    --color-antiinflamatorios:#F8D933;
 }
 
 .estilo{
     font-family: acumin-pro-condensed,sans-serif;
-font-weight: 800;
-font-style: normal;
+    font-weight: 800;
+    font-style: normal;
 }
 
 body{
-    background-color: lightcoral;
+    
     font-size: 16px;
 }
 
     /* FONTS */
 h1, h2, h3, h4{
-    font-family: var(--font-acumin-variable-concept);
+    font-family: var(--font-acumin-pro-condensed);
 }
 p, a{
     font-family: var(--font-acumin-pro-condensed);
 }
-.tit_general{
-    font-size: 2rem;
-    font-family: var(--font-acumin-variable-concept);
+.tit_general, .tit_secundario, .tit_tercero, .tit_cuarto, .tit_principal_bn, .tit_secundario_bn, .tit_tercero_bn, .tit_encabezado{
+    line-height: 1;
+    font-family: var(--font-acumin-pro-condensed);
+    font-weight: 800;
 }
-.txt_general{
+.tit_general{
+    font-size: 3rem;
+}
+.tit_secundario{
+    font-size: 2.2rem;
+}
+.tit_secundario_bn{
+    font-size: 2.2rem;
+    color: var(--color-white);
+}
+.tit_tercero{
+    font-size: 1rem;
+}
+.tit_tercero_bn{
+    font-size: 1.4rem;
+    color: var(--color-white);
+}
+.tit_cuarto{
+    font-size: 1.4rem;
+}
+.tit_principal_bn{
+    font-size: 3.2rem;
+    color: var(--color-white);
+}
+.tit_encabezado{
+    font-size: 3.4rem;
+    color: var(--color-azul-rey);
+}
+.tit_encabezado span{
+    color: var(--color-azul-normal);
+}
+.txt_general, .txt_general_bn, .txt_encabezado{
     font-family: var(--font-acumin-pro-condensed);
     font-size: 1rem;
     font-weight: normal;
+}
+.txt_encabezado{
+    color: var(--color-azul-rey);
+    font-size: 1.6rem;
+    margin-bottom: 0;
+}
+.txt_general_blue{
+    font-family: var(--font-acumin-pro-condensed);
+    font-size: 1.1rem;
+    font-weight: normal;
+}
+.txt_general{
+    color: var(--color-azul-rey);
+}
+.txt_general_bn{
+    color: var(--color-white);
+}
+.txt_general_blue{
+    color: var(--color-azul-normal);
+}
+
+/* __BTN__ */
+.btn_gen{
+    padding: 8px 24px;
+    border-radius: 25px;
+}
+.content_btn{
+    display: inline-block;
+    transition: all 0.6s ease-out;
+    transform: scale(1.05);
+    margin-top: 1rem;
+}
+.content_btn:hover{
+    transform: scale(1);
+}
+
+
+    /* __BTN PRINCIPAL__ */
+.btn_principal{
+    position: relative;
+    background-color: var(--color-azul-normal);
+    color: var(--color-white);
+}
+.btn_principal::before {
+    content: "";
+    display: inline-block;
+    height: 20px;
+    width: 90%;
+    position: absolute;
+    bottom: -6px;
+    left: 10px;
+    right: 30px;
+    z-index: -1;
+    border-radius: 30em;
+    background: var(--color-azul-normal);
+    filter: blur(10px) brightness(0.95);
+    transform-style: preserve-3d;
+    transition: all 0.3s ease-out;
+}
+.btn_principal:hover {
+    text-decoration: none;
+    color: var(--color-white);
+    cursor: pointer;
+}
+.btn_principal:hover:before {
+    bottom: -5px;
+    filter: blur(10px) brightness(0.95);
+}
+
+    /* __BTN PRINCIPAL NEGRO__ */
+.btn_principal_black{
+    position: relative;
+    background-color: var(--color-azul-normal);
+    color: var(--color-white);
+}
+.btn_principal_black::before {
+    content: "";
+    display: inline-block;
+    height: 20px;
+    width: 90%;
+    position: absolute;
+    bottom: -6px;
+    left: 10px;
+    right: 30px;
+    z-index: -1;
+    border-radius: 30em;
+    background: var(--color-azul-rey-dark);
+    filter: blur(10px) brightness(0.95);
+    transform-style: preserve-3d;
+    transition: all 0.3s ease-out;
+}
+.btn_principal_black:hover {
+    text-decoration: none;
+    color: var(--color-white);
+}
+.btn_principal_black:hover:before {
+    bottom: -5px;
+    filter: blur(10px) brightness(0.95);
+}
+
+.btn_complementario{
+    font-size: .9em;
+    color: var(--color-gris);
+    padding: 4px 12px;
 }
 
 /* __NAVEGACIÓN__ */
 #menu_principal{
     background-color: var(--color-azul-rey);
 }
-#menu_principal > div::before, #menu_pringit scipal > div::after{
+#menu_principal::before, #menu_principal::after{
     position: absolute;
     content: "";
     width: 100%;
@@ -58,11 +213,11 @@ p, a{
     height: 1px;
     background-color: var(--color-azul-rey-dark);
 }
-#menu_principal > div::before{
-    top: 60px;
+#menu_principal::before{
+    top: 48px;
 }
-#menu_principal > div::after{
-    bottom: 0px;
+#menu_principal::after{
+    top: 140px;
 }
 
 #navbarNav{
@@ -71,6 +226,28 @@ p, a{
 .navbar{
     padding: 20px 0px;
 }
+.navbar .nav-item a{
+    color: var(--color-white);
+    opacity: .5;
+    transition: all 0.6s;
+}
+.navbar-nav > .active > a{
+    position: relative;
+    opacity: 1;
+}
+.navbar-nav > .active > a::before{
+    position: absolute;
+    content: "";
+    width: 80%;
+    height: 2px;
+    bottom: -25px;
+    background-color: var(--color-naranja-claro);
+}
+.navbar .nav-item:hover a{
+    opacity: 1;
+    color: var(--color-white);
+}
+
     /* NAV TOP */
 .menu_social_top{
     background-color: var(--color-azul-rey);
@@ -89,6 +266,9 @@ p, a{
 }
 .list_contacto svg{
     margin-right: 6px;
+}
+.list_contacto .item_contact{
+    color: var(--color-white);
 }
 .item_contact{
     margin: 0px 12px;
@@ -140,7 +320,30 @@ h4.tit_slider{
 
 
 /* __HOME PAGE__ */
+    /* BIENVENIDO */
+.bienvenido{
+    position: relative;
+}
+.bienvenido .tit_general{
+    margin-bottom: 30px;
+}
+.bienv_colum_left{
+    margin: 60px 0px 40px 0px;
+}
+.bienv_colum_right{
+    border-left: 1px solid var(--color-gris-white);
+}
+.bienv_colum_right img{ 
+    position: relative;
+    top: -12px;
+    width: 100%;
+}
+
     /* NUESTROS PRODUCTOS */
+#nuestros_productos{
+    padding: 80px 0px;
+    background-color: var(--color-gris-claro-azulado);
+}
 #animals{
     padding: 34px 0px 28px 0px;
     border-top: 1px solid var(--color-gris-white);
@@ -161,11 +364,422 @@ h4.tit_slider{
     background-color: var(--color-white);
     width: 100%;
     height: auto;
+    min-height: 250px;
     padding: 28px;
     border-radius: 20px;
+    margin-top: 28px;
+    background-image: url("../images/mediker_bg_textura_card.png");
+    background-repeat: no-repeat;
+    background-position: right top;
 }
 .cont_card_icon img{
     background-color: var(--color-azul-light);
     padding: 10px;
     border-radius: 12px;
+    margin-bottom: 28px;
+}
+.cont_card_icon::before{
+    position: absolute;
+    content: "";
+    width: 78%;
+    height: 5px;
+    bottom: -3px;
+    background-color: var(--color-naranja-claro);
+}
+.cont_card_icon p{
+    margin-top: 18px;
+}
+#nuestros_productos .content_btn{
+    margin-top: 48px;
+}
+
+/* __PRODUCTOS DESTACADOS__ */
+#pto_destacado{
+    padding: 60px 0px 80px 0px;
+    background: rgb(238,240,243);
+    background: -moz-linear-gradient(180deg, rgba(238,240,243,1) 0%, rgba(255,255,255,1) 40%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(238,240,243,1) 0%, rgba(255,255,255,1) 40%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(180deg, rgba(238,240,243,1) 0%, rgba(255,255,255,1) 40%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eef0f3",endColorstr="#ffffff",GradientType=1);
+}
+#pto_destacado::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 1px;
+    margin-top: -60px;
+    background-color: var(--color-gris-white);
+}
+.fila_destacados .cont_pto_destacado{
+    background-color: var(--color-gris-claro-azulado);
+    border-radius: 25px;
+    box-sizing: border-box;
+    padding: 16px;
+    min-height: 242px;
+}
+.fila_destacados{
+    margin-top: 100px;
+    text-align: center;
+}
+.cont_pto_destacado img{
+    position: relative;
+    margin-top: -100px;
+}
+.cont_pto_destacado, .tit_cuarto{
+    margin: 20px 0px 20px 0px;
+}
+.cont_pto_destacado .txt_general{
+    font-size: 1.2rem;
+}
+.cont_pto_destacado .btn_complementario{
+    position: absolute;
+    bottom: 28px;
+    margin-left: calc(50% - 184px);
+}
+.fila_btn_general{
+    height: 0px;
+}
+
+/* __BANNER FARMACÉUTICA DE CALIDAD__ */
+#banner_farma{
+    padding: 60px 0px 120px 0px;
+}
+#banner_farma{
+    width: 100%;
+    left: 0;
+    height: auto;
+    background-image: url("../images/svg/bg_banner_azul.svg");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+#banner_farma > div{
+    position: relative;
+}
+.cont_gen_left{
+    position: relative;
+    max-width: 600px;
+}
+.cont_txt_left{
+    top: 32px;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 40px 94px 50px 60px;
+    max-width: 600px;
+    background-color: blue;
+    border-radius: 32px;
+    border: 18px solid rgba(255,255,255,.5);
+    background-image: url("../images/Mediker-banner-back-txt.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 120%;
+    z-index: 3;
+}
+.sombra_cont_left, .sombra_cont_right{
+    display: inline-block;
+    position: absolute;
+    top: 340px;
+    right: 30px;
+    border-radius: 30em;
+    background: var(--color-black);
+    filter: blur(28px) brightness(0.15);
+    transform-style: preserve-3d;
+    transition: all 0.3s ease-out;
+}
+.sombra_cont_left{
+    z-index: 2;
+    height: 40px;
+    width: 96%;
+    left: 10px;
+}
+.sombra_cont_right{
+    height: 40px;
+    z-index: 0;
+    width: 56%;
+    right: 56px;
+}
+.img_banner_farmaceutica{
+    margin-left: 40%;
+    border-radius: 32px;
+    border: 18px solid rgba(255,255,255,.5);
+    z-index: 1;
+}
+.cont_img_right{
+    position: relative;
+    z-index: 1;
+}
+
+/* __SERVICIOS__ */
+#n_servicios{
+    background-color: var(--color-azul-rey);
+    padding: 0px 0px 60px 0px;
+}
+#n_servicios .content_btn{
+
+}
+.cont_servicios img{
+    height: 40px;
+    margin-bottom: 20px;
+}
+.cont_servicios .txt_general_blue{
+    margin-top: 20px;
+}
+.id_servicios .content_btn{
+    margin-top: 26px;
+}
+
+
+/* __FOOTER__ */
+#foot{
+    background-color: var(--color-azul-marino);
+    padding: 60px 0px 0px 0px;
+}
+.cont_logo_footer{
+    margin-top: 16px;
+}
+.list_footer_menu{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    list-style: none;
+    flex-wrap: wrap;
+    max-height: 150px;
+}
+.list_footer_menu a{
+    margin-bottom: 16px;
+    font-family: var(--font-acumin-pro-condensed);
+    font-size: 1.2rem;
+    color: var(--color-azul-normal);
+}
+.list_footer_menu .active{
+    color: var(--color-white);
+}
+.cont_card_footer{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    opacity: .5;
+    transition: all 0.6s;
+    min-height: 92px;
+}
+.cont_card_footer:hover{
+    opacity: 1;
+}
+.cont_card_footer a{
+    color: var(--color-white);
+    font-family: var(--font-acumin-pro-condensed);
+    font-size: .9rem;
+}
+.cont_card_footer a:hover{
+    color: var(--color-white);
+    text-decoration: underline!important;
+}
+.cont_card_footer img{
+    position: relative;
+    top: 0;
+    width: 20px;
+    margin-right: 20px;
+}
+.list_contact_phone{
+    padding-left: 0;
+    list-style: none;
+}
+
+    /* __LEGALES__ */
+.row_legales{
+    background-color: var(--color-azul-rey-dark);
+    align-items: center;
+    padding: 40px 0px 40px 0px;
+    width: 100%;
+    margin-left: 0px!important;
+    margin-right: 0px!important;
+}
+.row_legales p{
+    color: var(--color-white);
+}
+.list_footer_social{
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+.list_footer_social a{
+    margin-right: 16px;
+}
+
+/* __SECTION NOSOTROS__ */
+.caption_tit{
+    font-family: var(--font-acumin-pro-condensed);
+    color: var(--color-gris);
+    font-size: 1.4em;
+    margin-bottom: 0;
+}
+.head_nosotros{
+    border-bottom: 1px solid var(--color-gris-white);
+}
+.head_nosotros .row > div{
+    padding: 80px 0px;
+}
+.head_nosotros .row > div:nth-child(2){
+    border-left: 1px solid var(--color-gris-white);
+    padding-left: 40px;
+}
+
+/* __ANIMALS__ */
+#animals_nostr{
+    background-image: url("../images/svg/bg_banner_azul_lg.svg");
+    background-repeat: no-repeat;
+    background-position: center 400px;
+    background-size: auto;
+    margin-top: 60px;
+}
+.fila_list_animals{
+    padding: 60px 0px;
+}
+.list_nosotros_animals{
+    padding-left: 0;
+    list-style: none;
+}
+.list_nosotros_animals .item_animal{
+    color: var(--color-white);
+    font-size: 1.5rem;
+    font-family: var(--font-acumin-pro-condensed);
+    font-weight: normal;
+}
+.list_nosotros_animals .item_animal::before{
+    position: absolute;
+    content: "";
+    width: 12px;
+    height: 12px;
+    left: -8px;
+    border-radius: 25px;
+    margin-top: 14px;
+    border: 3px solid var(--color-azul-normal-claro);
+}
+
+    /* VALORES */
+.section_valores{
+    background-color: var(--color-azul-marino);
+    padding: 120px 0px 80px 0px;
+}
+.section_valores > div > div{
+    position: relative;
+}
+.list_valores{
+    padding-left: 0;
+    list-style: none;
+}
+.list_valores .item_valores{
+    color: var(--color-white);
+    font-family: var(--font-acumin-pro-condensed);
+    font-size: 1rem;
+}
+.list_valores .item_valores::before{
+    position: absolute;
+    content: "+";
+    font-size: 18px;
+    left: 0;
+    margin-top: -4px;
+}
+.btn_flotante{
+    position: absolute;
+    top: -150px;
+    margin-left: calc(50% - 60px);
+}
+.tab-content .tit_cuarto{
+    margin: 0;
+}
+.cont_tabs_txt{
+    margin: 10px 0px 20px 0px;
+}
+.tab-content{
+    background-color: var(--color-white);
+    border: 1px solid var(--color-gris-claro-azulado);
+    box-sizing: border-box;
+    padding: 40px 60px;
+    border-radius: 26px;
+}
+    /* HISTORIAL */
+.tab_historia{
+    position: relative;
+    padding: 80px 0px;
+    background: rgb(238,240,243);
+    background: -moz-linear-gradient(180deg, rgba(238,240,243,1) 0%, rgba(255,255,255,1) 68%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(238,240,243,1) 0%, rgba(255,255,255,1) 68%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(180deg, rgba(238,240,243,1) 0%, rgba(255,255,255,1) 68%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eef0f3",endColorstr="#ffffff",GradientType=1);
+}
+.tab-content .tab-pane::before{
+    position: absolute;
+    content: "";
+    width: 87%;
+    height: 5px;
+    bottom: -3px;
+    background-color: var(--color-naranja-claro);
+}
+.tab_historia .nav{
+    justify-content: space-between;
+}
+.tab-pane .row > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+    /* NUESTROS PRODUCTOS ESPECIALIZADOS */
+#pto_especializado{
+    padding: 0px 0px 60px 0px;
+}
+#pto_especializado .row{
+    margin-top: 60px;
+}
+.cont_pto_especial{
+    text-align: center;
+    background-color: var(--color-gris-claro-azulado);
+    box-sizing: border-box;
+    padding: 12px;
+    border-radius: 20px;
+    min-height: 110px;
+}
+.cont_pto_especial img{
+    margin-top: -64px;
+    padding: 12px;
+    width: auto;
+    height: 48px;
+    border-radius: 12px;
+}
+.cont_pto_especial .tit_cuarto{
+    font-size: 1.2rem;
+    margin: 0;
+    margin-bottom: 16px;
+}
+    /* COLORES PRODUCTOS */
+.color_01{
+    background-color: var(--color-desparasitantes-inyectables);
+}
+.color_02{
+    background-color: var(--color-antibioticos-quimioterapicos);
+}
+.color_03{
+    background-color: var(--color-hormonales);
+}
+.color_04{
+    background-color: var(--color-productos-solubles);
+}
+.color_05{
+    background-color: var(--color-otc);
+}
+.color_06{
+    background-color: var(--color-desparasitantes-orales);
+}
+.color_07{
+    background-color: var(--color-electrolitos-y-vitaminicos);
+}
+.color_08{
+    background-color: var(--color-desparasitantes-solubles);
+}
+.color_09{
+    background-color: var(--color-intramamarios);
+}
+.color_10{
+    background-color: var(--color-desinfectantes-sanitizantes);
 }
