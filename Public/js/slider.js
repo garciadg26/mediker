@@ -24,7 +24,7 @@
 	    dots: false,
 	    autoplayHoverPause: false,
 	    items: 1,
-	    navText : ["<span class='icon ion-ios-arrow-round-back-outline'></span>","<span class='icon ion-ios-arrow-round-forward'></span>"],
+	    navText : ["<span class='icon ion-md-arrow-round-back'></span>","<span class='icon ion-md-arrow-round-forward'></span>"],
 	    responsive:{
 	      0:{
 	        items:1

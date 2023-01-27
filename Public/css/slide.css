@@ -8284,18 +8284,20 @@
           .owl-carousel.home-slider .owl-nav .owl-next:focus span:before {
             color: #fff; }
         .owl-carousel.home-slider .owl-nav .owl-prev {
+          margin-top: -10%;
           left: 0;
-          margin-left: 50px; }
+          margin-left: 60%; }
         .owl-carousel.home-slider .owl-nav .owl-next {
+          margin-top: -10%;
           right: 0;
-          margin-right: 50px; }
+          margin-right: 35%; }
       .owl-carousel.home-slider:hover .owl-nav .owl-prev,
       .owl-carousel.home-slider:hover .owl-nav .owl-next {
         opacity: 1; }
       .owl-carousel.home-slider:hover .owl-nav .owl-prev {
-        margin-left: 50px; }
+        margin-left: 60%; }
       .owl-carousel.home-slider:hover .owl-nav .owl-next {
-        margin-right: 50px; }
+        margin-right: 35%; }
       .owl-carousel.home-slider .owl-dots {
         position: absolute;
         left: 0;

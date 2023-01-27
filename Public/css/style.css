@@ -238,8 +238,22 @@ p, a{
 }
 
 /* __NAVEGACIÓN__ */
-#menu_principal{
+.space_fixed_azul{
+    width: 100%;
+    height: 140px;
     background-color: var(--color-azul-rey);
+}
+.space_fixed{
+    width: 100%;
+    height: 140px;
+    background-color: var(--color-white);
+}
+
+#menu_principal{
+    position: fixed;
+    width: 100%;
+    background-color: transparent;
+    z-index: 99 ;
 }
 #menu_principal::before, #menu_principal::after{
     position: absolute;
@@ -263,7 +277,7 @@ p, a{
     padding: 20px 0px;
 }
 .navbar .nav-item a{
-    color: var(--color-white);
+    color: var(--color-azul-rey);
     opacity: .5;
     transition: all 0.6s;
 }
@@ -281,12 +295,37 @@ p, a{
 }
 .navbar .nav-item:hover a{
     opacity: 1;
+    color: var(--color-azul-rey);
+}
+.navbar-brand .brand{
+    width: 200px;
+    height: 45px;
+    background-image: url("../images/svg/mediker-logotipo_azul_menu.svg");
+}
+
+    /* COLOR WHITE */
+.color_white .navbar .nav-item:hover a{
+    color: var(--color-white);
+}
+.color_white .navbar .nav-item a{
+    color: var(--color-white);
+}
+.color_white .navbar-brand .brand{
+    background-image: url("../images/svg/mediker-logotipo-bn-menu.svg");
+}
+.navbar-nav > .active > a::before{
+    background-color: var(--color-azul-normal);
+}
+.color_white .icon_facebook, .color_white .icon_instagram, .color_white .icon_youtube, .color_white .icon_envelope, .color_white .icon_phone{
+    fill: var(--color-white);
+}
+.color_white .list_contacto .item_contact{
     color: var(--color-white);
 }
 
     /* NAV TOP */
 .menu_social_top{
-    background-color: var(--color-azul-rey);
+    background-color: transparent;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -304,12 +343,40 @@ p, a{
     margin-right: 6px;
 }
 .list_contacto .item_contact{
-    color: var(--color-white);
+    color: var(--color-azul-rey);
 }
 .item_contact{
     margin: 0px 12px;
 }
+.icon_facebook, .icon_instagram, .icon_youtube, .icon_envelope, .icon_phone{
+    fill: var(--color-azul-rey);
+}
 
+    /* MENÚ SCROLL */
+.scroll-header{
+    background-color: var(--color-white)!important;
+}
+.scroll-header .icon_facebook, .scroll-header .icon_instagram, .scroll-header .icon_youtube, .scroll-header .icon_envelope, .scroll-header .icon_phone{
+    fill: var(--color-azul-rey);
+}
+.scroll-header .item_contact{
+    color: var(--color-azul-rey);
+}
+.scroll-header .navbar-nav .nav-link, .scroll-header .navbar-nav .nav-link:hover{
+    color: var(--color-azul-rey);
+}
+.scroll-header .navbar-nav > .active > a::before {
+    background-color: var(--color-azul-normal);
+}
+.scroll-header::before, .scroll-header::after {
+    background-color: var(--color-gris-white)!important;
+}
+
+.scroll-header .navbar-brand .brand{
+    width: 200px;
+    height: 45px;
+    background-image: url("../images/svg/mediker-logotipo_azul_menu.svg");
+}
     /* SLIDE */
 .slide_txt{
     display: flex;
@@ -1041,4 +1108,9 @@ h4.tit_slider{
 }
 .cont_img_blog{
     display: block;
+}
+
+    /* __RESPONSIVE__ */
+@media screen and (max-width:1366px){
+    
 }
