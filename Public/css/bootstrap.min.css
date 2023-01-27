@@ -3897,20 +3897,32 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    padding: .75rem 1rem;
-    margin-bottom: 1rem;
+    padding: 32px 0px;
+    margin-bottom: 0;
     list-style: none;
-    background-color: #e9ecef;
     border-radius: .25rem;
+}
+.breadcrumb-item:nth-child(1){
+    margin-left: 16%;
+}
+.breadcrumb-item a{
+    color: #C5C5C5;
 }
 .breadcrumb-item+.breadcrumb-item {
     padding-left: .5rem;
 }
 .breadcrumb-item+.breadcrumb-item::before {
     float: left;
-    padding-right: .5rem;
-    color: #6c757d;
-    content: "/"}
+    margin-top: 6px;
+    padding-right: 2rem;
+    background-image: url("../images/svg/ionic-ios-arrow-breadcrumb.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    content: "";
+    width: 12px;
+    height: 12px;
+    }
 .breadcrumb-item+.breadcrumb-item:hover::before {
     text-decoration: underline;
 }
@@ -3918,7 +3930,8 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
     text-decoration: none;
 }
 .breadcrumb-item.active {
-    color: #6c757d;
+    font-family: acumin-pro-condensed, sans-serif;
+    color: #003C5F;
 }
 .pagination {
     display: -ms-flexbox;
@@ -4343,9 +4356,25 @@ to {
 .list-group-item {
     position: relative;
     display: block;
-    padding: .75rem 1.25rem;
-    background-color: #fff;
-    border: 1px solid rgba(0, 0, 0, .125);
+    padding: .75rem 1.25rem;    
+}
+.list-group-item::before{
+    position: absolute;
+    content: "";
+    width: 14px;
+    height: 14px;
+    background-image: url("../images/svg/ionic-ios-arrow-breadcrumb.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 6px;
+    right: 20px;
+    opacity: .4;
+    transition: all 0.4s;
+}
+.list-group-item:hover::before{
+    right: 16px;
+    opacity: 1;
 }
 .list-group-item:first-child {
     border-top-left-radius: inherit;
