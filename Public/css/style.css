@@ -4,7 +4,7 @@
          url('../fonts/acumin_pro_condensed_black-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-}*/
+}*/ 
 
 :root{
     --color-white:#ffffff;
@@ -254,7 +254,7 @@ p, a{
 #menu_principal{
     position: fixed;
     width: 100%;
-    background-color: var(--color-white);
+    background-color: transparent;
     z-index: 99 ;
 }
 #menu_principal::before, #menu_principal::after{
@@ -263,7 +263,7 @@ p, a{
     width: 100%;
     left: 0;
     height: 1px;
-    background-color: var(--color-gris-white);
+    background-color: var(--color-azul-rey-dark);
 }
 #menu_principal::before{
     top: 48px;
@@ -280,7 +280,7 @@ p, a{
 }
 
 .navbar .nav-item a{
-    color: var(--color-azul-rey);
+    color: var(--color-white);
     opacity: .5;
     transition: all 0.6s;
 }
@@ -298,15 +298,15 @@ p, a{
 }
 .navbar .nav-item:hover a{
     opacity: 1;
-    color: var(--color-azul-rey);
+    color: var(--color-white);
 }
 .navbar-brand .brand{
     width: 200px;
     height: 45px;
-    background-image: url("../images/svg/mediker-logotipo_azul_menu.svg");
+    background-image: url("../images/svg/mediker-logotipo-bn-menu.svg");
 }
 .navbar .navbar-toggler-icon i{
-    color: var(--color-azul-normal);
+    color: var(--color-white);
     font-size: 2rem;
 }
 .navbar-collapse{
@@ -316,32 +316,32 @@ p, a{
 
     /* COLOR WHITE */
 .color_white{
-    background-color: var(--color-azul-rey)!important;
+    background-color: var(--color-white)!important;
 }
 .color_white .navbar .nav-item:hover a{
-    color: var(--color-white);
+    color: var(--color-azul-rey);
 }
 .color_white .navbar .nav-item a{
-    color: var(--color-white);
+    color: var(--color-azul-rey);
 }
 .color_white .navbar-brand .brand{
-    background-image: url("../images/svg/mediker-logotipo-bn-menu.svg");
+    background-image: url("../images/svg/mediker-logotipo_azul_menu.svg");
 }
 .navbar-nav > .active > a::before{
     background-color: var(--color-azul-normal);
 }
 .color_white .icon_facebook, .color_white .icon_instagram, .color_white .icon_youtube, .color_white .icon_envelope, .color_white .icon_phone{
-    fill: var(--color-white);
+    fill: var(--color-azul-rey);
 }
 .color_white .list_contacto .item_contact{
-    color: var(--color-white);
+    color: var(--color-azul-rey);
 }
 .color_white .navbar .navbar-toggler-icon i{
-    color: var(--color-white);
+    color: var(--color-azul-rey);
     font-size: 2rem;
 }
 .color_white::before, .color_white::after{
-    background-color: var(--color-azul-rey-dark)!important;
+    background-color: var(--color-gris-white)!important;
 }
 
     /* NAV TOP */
@@ -364,13 +364,13 @@ p, a{
     margin-right: 6px;
 }
 .list_contacto .item_contact{
-    color: var(--color-azul-rey);
+    color: var(--color-white);
 }
 .item_contact{
     margin: 0px 12px;
 }
 .icon_facebook, .icon_instagram, .icon_youtube, .icon_envelope, .icon_phone{
-    fill: var(--color-azul-rey);
+    fill: var(--color-white);
 }
 
     /* MENÚ SCROLL */
@@ -434,8 +434,15 @@ h4.tit_slider{
     background-repeat: no-repeat;
     height: 40vh;
 }
-.slide_cont_down{
+.slide_cont_down_1{
     background-image: url("../images/Mediker-bg-slider-01.jpg");
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+}
+.slide_cont_down_2{
+    background-image: url("../images/Mediker-bg-slider-02.jpg");
     background-position: center bottom;
     background-size: cover;
     background-repeat: no-repeat;
@@ -638,9 +645,6 @@ h4.tit_slider{
     padding: 10px 0px 60px 0px;
     margin-top: -1px;
 }
-#n_servicios .content_btn{
-
-}
 .cont_servicios img{
     height: 40px;
     margin-bottom: 20px;
@@ -816,7 +820,7 @@ h4.tit_slider{
 .btn_flotante{
     position: absolute;
     top: -150px;
-    margin-left: calc(50% - 60px);
+    margin-left: calc(50% - 64px);
 }
 .tab-content .tit_cuarto{
     margin: 0;
@@ -1157,7 +1161,7 @@ h4.tit_slider{
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eef0f3",endColorstr="#ffffff",GradientType=1);
 }
 #distribuidores .card_product{
-    min-height: 410px;
+    min-height: 438px;
     border: 1px solid var(--color-gris-claro-azulado);
 }
 #distribuidores .cont_card_icon img{
@@ -1168,6 +1172,127 @@ h4.tit_slider{
 #distribuidores .cont_card_icon h5{
     margin-top: 20px;
 }
+
+/* __CONTACTO__ */
+#contacto{
+    padding: 60px 0px;
+    background: rgb(238,240,243);
+    background: -moz-linear-gradient(180deg, rgba(238,240,243,1) 0%, rgba(255,255,255,1) 95%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(238,240,243,1) 0%, rgba(255,255,255,1) 95%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(180deg, rgba(238,240,243,1) 0%, rgba(255,255,255,1) 95%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eef0f3",endColorstr="#ffffff",GradientType=1);
+}
+.contacto_izq{
+    max-width: 360px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.contacto_izq a{
+    font-family: var(--font-acumin-pro-condensed);
+    color: var(--color-azul-rey);
+    font-size: 1rem;
+}
+.contacto_izq svg{
+    width:16px;
+    margin-right: 10px;
+}
+.contacto_izq .contact_icon{
+    fill: var(--color-azul-rey);
+}
+
+    /* FORMULARIO */
+#formulario{
+    margin-top: 28px;
+}
+#formulario input[type=text], #formulario input[type=tel], #formulario input[type=email]{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px 16px;
+    background-color: var(--color-white);
+    border-radius: 8px;
+    font-family: var(--font-acumin-pro-condensed);
+    border:1px solid var(--color-gris-claro-azulado);
+    margin-bottom: 28px;
+}
+#formulario textarea{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px 16px;
+    background-color: var(--color-white);
+    border-radius: 8px;
+    border:1px solid var(--color-gris-claro-azulado);
+    font-family: var(--font-acumin-pro-condensed);
+    margin-bottom: 12px;
+}
+#formulario input[type=submit]{
+    padding: 8px 24px;
+    border-radius: 25px;
+    background-color: var(--color-azul-normal);
+    color: var(--color-white);
+    border: 0px;
+    font-family: var(--font-acumin-pro-condensed);
+}
+
+/* __MENSAJE DE ERROR__ */
+.formulario__input-error {
+    font-size: 12px;
+    margin-bottom: 0;
+    display: none;
+}
+.formulario__input-error-activo {
+	display: block;
+}
+.formulario__validacion-estado {
+    position: absolute;
+    right: 16px;
+    top: 10px;
+    z-index: 100;
+    font-size: 16px;
+    opacity: 0;
+}
+.formulario__mensaje, .formulario__captcha{
+	height: 45px;
+	line-height: 45px;
+	background: #F66060;
+	padding: 0 15px;
+	border-radius: 3px;
+	display: none;
+}
+.formulario__mensaje-activo {
+	display: block;
+}
+.formulario__mensaje-exito {
+	font-size: 14px;
+	color: #119200;
+	display: none;
+}
+.formulario__mensaje-exito-activo {
+	display: block;
+}
+
+/* ----- -----  Estilos para Validacion ----- ----- */
+.formulario__grupo-input{
+    position: relative;
+}
+.formulario__grupo-correcto .formulario__validacion-estado {
+	color: #1ed12d;
+	opacity: 1;
+}
+
+.formulario__grupo-incorrecto .formulario__label {
+	color: #bb2929;
+}
+
+.formulario__grupo-incorrecto .formulario__validacion-estado {
+	color: #bb2929;
+	opacity: 1;
+}
+
+.formulario__grupo-incorrecto .formulario__input {
+	border: 3px solid #bb2929;
+}
+
 
     /* __RESPONSIVE__ */
 @media screen and (max-width:1366px){
@@ -1194,6 +1319,9 @@ h4.tit_slider{
     }
     .navbar-collapse{
         padding-top: 30px;
+    }
+    #menu_principal{
+        background-color: var(--color-azul-rey);
     }
 }
 

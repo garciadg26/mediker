@@ -10,12 +10,10 @@ function scrollHeader(){
     // When the scroll is greater than 50 viewport height, add the scroll-header class to the header tag
     if(this.scrollY >= 10){
         header.classList.add('scroll-header');
-        header.classList.remove('color_white');
+        // header.classList.remove('color_white');
     } else{
-        if(document.URL.includes("index.php")){
-            header.classList.remove('scroll-header');  
-            header.classList.add('color_white');
-        }
+        header.classList.remove('scroll-header');  
+        // header.classList.add('color_white');
     } 
 }
 window.addEventListener('scroll', scrollHeader)
@@ -29,31 +27,45 @@ function menuActive(){
     if(document.URL.includes('nosotros.php')){
         $('.navbar-nav li, .list_footer_menu a li').removeClass("active");
         $('.navbar-nav li:nth-child(2), .list_footer_menu a:nth-child(2) li').addClass("active");       
+        header.classList.add('color_white');
     }
     // QUÉ HACEMOS
     if(document.URL.includes('que-hacemos.php')){
         $('.navbar-nav li, .list_footer_menu a li').removeClass("active");
         $('.navbar-nav li:nth-child(3), .list_footer_menu a:nth-child(3) li').addClass("active");
+        header.classList.add('color_white');
     }
     // NOTICIAS
     if(document.URL.includes('noticias.php')){
         $('.navbar-nav li, .list_footer_menu a li').removeClass("active");
         $('.navbar-nav li:nth-child(5), .list_footer_menu a:nth-child(5) li').addClass("active");       
+        header.classList.add('color_white');
+    }
+    // NOTICIAS
+    if(document.URL.includes('productos.php')){
+        header.classList.add('color_white');
+    }
+    // NOTICIAS
+    if(document.URL.includes('fosfoflex.php')){
+        header.classList.add('color_white');
     }
     // NOTICIAS DETALLE
     if(document.URL.includes('noticias-detalle.php')){
         $('.navbar-nav li, .list_footer_menu a li').removeClass("active");
         $('.navbar-nav li:nth-child(5), .list_footer_menu a:nth-child(5) li').addClass("active");       
+        header.classList.add('color_white');
     }
     // DISTRIBUIDORES
     if(document.URL.includes('distribuidores.php')){
         $('.navbar-nav li, .list_footer_menu a li').removeClass("active");
         $('.navbar-nav li:nth-child(6), .list_footer_menu a:nth-child(6) li').addClass("active");       
+        header.classList.add('color_white');
     }
     // CONTACTO
     if(document.URL.includes('contacto.php')){
         $('.navbar-nav li, .list_footer_menu a li').removeClass("active");
         $('.navbar-nav li:nth-child(7), .list_footer_menu a:nth-child(6) li').addClass("active");       
+        header.classList.add('color_white');
     }
 }
 
@@ -62,11 +74,11 @@ function menuActive(){
 function cargandoHome(){
     const header = document.getElementById("menu_principal");
     $('.navbar-nav li, .list_footer_menu a li').removeClass("active");
-    $('.navbar-nav li:nth-child(1), .list_footer_menu a:nth-child(1) li').addClass("active");       
+    $('.navbar-nav li:nth-child(1), .list_footer_menu a:nth-child(1) li').addClass("active"); 
     // $('.navbar-nav li, .menu_footer li').removeClass("active");
     // $('.navbar-nav li:nth-child(1), .menu_footer li:nth-child(1)').addClass("active");
     /* CAMBIO DE COLOR HEADER */
-    header.classList.add('color_white');
+
 }
 
 /*=============== SCROLL REVEAL ANIMATION ===============*/

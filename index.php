@@ -11,7 +11,7 @@
     <?php include_once "Public/includes/nav.php"; ?>
 
     <!-- ESPACIO MENU FIXED -->
-    <div class="space_fixed_azul"></div>
+    <div class="space_fixed_azul"></div> 
 
     <!-- SLIDER -->
     <div class="home-slider owl-carousel js-fullheight">
@@ -30,10 +30,10 @@
                 </div>
             </div>
             <!-- SLIDE INFERIOR -->
-            <div class="row no-gutters slide_cont_down">
+            <div class="row no-gutters slide_cont_down_1">
                 <div class="col-md-12 slide_img">
                 </div>    
-            </div>
+            </div> 
         </div>
         <!-- SLIDE 02 -->
         <div class="slider-item js-fullheight slider-item01">
@@ -43,14 +43,14 @@
                 <div class="container">
                     <!-- SLIDE TXT LEFT -->
                     <div class="col-md-12 ftco-animate slide_txt">
-                        <h4 class="tit_slider">FABRICANTES DE PRODUCTOS VETERINARIOS</h4>
+                        <h4 class="tit_slider">SOMOS ESPECIALISTAS EN LA PREVENCIÓN DE ENFERMEDADES Y CUIDADOS DE LA SALUD ANIMAL</h4>
                         <!-- SLIDE TXT LEFT -->
-                        <p class="txt_slide">Fabricamos todos los productos según sus necesidades.</p>
+                        <p class="txt_slide">Generando productos y servicios innovadores que aporten un alto retorno económico a sus clientes y asociados.</p>
                     </div>
                 </div>
             </div>
             <!-- SLIDE INFERIOR -->
-            <div class="row no-gutters slide_cont_down">
+            <div class="row no-gutters slide_cont_down_2">
                 <div class="col-md-12 slide_img">
                 </div>    
             </div>

@@ -102,7 +102,7 @@
 
     <!-- SCRIPT GENERALES -->
     <script type="text/javascript" src="Public/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="Public/js/main.js?ver=1.1.0"></script>
+    <script type="text/javascript" src="Public/js/main.js?ver=1.1.11"></script>
 
     <!-- SCROLL REVEAL -->
     <script src="https://unpkg.com/scrollreveal"></script>

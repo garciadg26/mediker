@@ -62,7 +62,7 @@
         <div class="container">
             <div class="row">
                 <div class="content_btn btn_flotante">
-                    <a href="nosotros.php" class="btn_gen btn_principal_black">Conócenos</a>
+                    <a href="que-hacemos.php" class="btn_gen btn_principal_black">Qué hacemos</a>
                 </div>
                 <div class="col-md-4 home__photo1">
                     <h4 class="tit_secundario_bn">MISIÓN</h4>
@@ -243,86 +243,80 @@
                 </div>
             </div>
             <!-- PRIMERA FILA -->
-            <div class="row">
-                <div class="col-md-2 offset-md-1">
+            <div class="row justify-content-center">
+                <div class="col-lg-3 col-md-4 col-sm-6 pb-5">
                     <div class="cont_pto_especial">
                         <img class="img-fluid color_01" src="Public/images/svg/icon_desparasitantes_inyectables.svg" alt="">
                         <h6 class="tit_cuarto">DESPARASITANTES INTECTABLES</h6>
                     </div>
                 </div>
-                <div class="col-md-2">
+                <div class="col-lg-3 col-md-4 col-sm-6 pb-5">
                     <div class="cont_pto_especial">
                         <img class="img-fluid color_02" src="Public/images/svg/icon_antibioticos_y_quimioterapicos.svg" alt="">
                         <h6 class="tit_cuarto">ANTIBIÓTICOS Y QUIMIOTERAPICOS</h6>
                     </div>
                 </div>
-                <div class="col-md-2">
+                <div class="col-lg-3 col-md-4 col-sm-6 pb-5">
                     <div class="cont_pto_especial">
                         <img class="img-fluid color_03" src="Public/images/svg/icon_hormonales.svg" alt="">
                         <h6 class="tit_cuarto">ANTIBIÓTICOS Y QUIMIOTERAPICOS</h6>
                     </div>
                 </div>
-                <div class="col-md-2">
+                <div class="col-lg-3 col-md-4 col-sm-6 pb-5">
                     <div class="cont_pto_especial">
                         <img class="img-fluid color_04" src="Public/images/svg/icon_productos_solubles.svg" alt="">
                         <h6 class="tit_cuarto">ANTIBIÓTICOS Y QUIMIOTERAPICOS</h6>
                     </div>
                 </div>
-                <div class="col-md-2">
+                <div class="col-lg-3 col-md-4 col-sm-6 pb-5">
                     <div class="cont_pto_especial">
                         <img class="img-fluid color_05" src="Public/images/svg/icon_otc.svg" alt="">
                         <h6 class="tit_cuarto">OTC</h6>
                     </div>
                 </div>
-            </div>
-            <!-- SEGUNDA FILA -->
-            <div class="row">
-                <div class="col-md-2 offset-md-1">
+                <div class="col-lg-3 col-md-4 col-sm-6 pb-5">
                     <div class="cont_pto_especial">
                         <img class="img-fluid color_06" src="Public/images/svg/icon_desparasitantes_orales.svg" alt="">
                         <h6 class="tit_cuarto">DESPARASITANTES ORALES</h6>
                     </div>
                 </div>
-                <div class="col-md-2">
+                <div class="col-lg-3 col-md-4 col-sm-6 pb-5">
                     <div class="cont_pto_especial">
                         <img class="img-fluid color_07" src="Public/images/svg/icon_electrolitos_vitaminicos.svg" alt="">
                         <h6 class="tit_cuarto">ELECTROLITOS Y VITAMÍNICOS</h6>
                     </div>
                 </div>
-                <div class="col-md-2">
+                <div class="col-lg-3 col-md-4 col-sm-6 pb-5">
                     <div class="cont_pto_especial">
                         <img class="img-fluid color_08" src="Public/images/svg/icon_desparasitantes_solubles.svg" alt="">
                         <h6 class="tit_cuarto">DESPARASITANTES SOLUBLES</h6>
                     </div>
                 </div>
-                <div class="col-md-2">
+                <div class="col-lg-3 col-md-4 col-sm-6 pb-5">
                     <div class="cont_pto_especial">
                         <img class="img-fluid color_09" src="Public/images/svg/icon_intramamarios.svg" alt="">
                         <h6 class="tit_cuarto">INTRAMAMARIOS</h6>
                     </div>
                 </div>
-                <div class="col-md-2">
+                <div class="col-lg-3 col-md-4 col-sm-6 pb-5">
                     <div class="cont_pto_especial">
                         <img class="img-fluid color_10" src="Public/images/svg/icon_desinfectantes_y_sanitizantes.svg" alt="">
                         <h6 class="tit_cuarto">DESINFECTANTES Y SANITIZANTES</h6>
                     </div>
                 </div>
-            </div>
-            <!-- TERCERA FILA -->
-            <div class="row">
-                <div class="col-md-2 offset-md-3">
+                <div class="col-lg-3 col-md-4 col-sm-6 pb-5">
                     <div class="cont_pto_especial">
                         <img class="img-fluid color_06" src="Public/images/svg/icon_sueros_y_soluciones.svg" alt="">
                         <h6 class="tit_cuarto">SUEROS Y SOLUCIONES</h6>
                     </div>
                 </div>
-                <div class="col-md-2">
+                <div class="col-lg-3 col-md-4 col-sm-6 pb-5">
                     <div class="cont_pto_especial">
                         <img class="img-fluid color_07" src="Public/images/svg/icon_premezclas.svg" alt="">
                         <h6 class="tit_cuarto">PREMEZCLAS</h6>
                     </div>
                 </div>
-                <div class="col-md-2">
+                <div class="col-lg-3 col-md-4 col-sm-6 pb-5">
                     <div class="cont_pto_especial">
                         <img class="img-fluid color_08" src="Public/images/svg/icon_antiinflamatorios.svg" alt="">
                         <h6 class="tit_cuarto">ANTIINFLAMATORIOS</h6>
