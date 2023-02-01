@@ -1,10 +1,10 @@
     <footer id="foot">
         <div class="container">
             <div class="row">
-                <div class="col-md-3 cont_logo_footer">
+                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 cont_logo_footer">
                     <img src="Public/images/svg/mediker.svg" alt="">
                 </div>
-                <div class="col-md-4">
+                <div class="col-xl-4 col-lg-4 col-md-5 col-sm-12">
                     <ul class="list_footer_menu">
                         <a href="index.php">
                             <li class="item_footer_menu">HOME</li>
@@ -26,9 +26,9 @@
                         </a>
                     </ul>
                 </div>
-                <div class="col-md-5">
+                <div class="col-xl-5 col-lg-5 col-md-7 col-sm-12">
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-xl-6 col-lg-6 col-md-12">
                             <div class="cont_card_footer">
                                 <img src="Public/images/svg/icon_mediker_comercializadora.svg" alt="">
                                 <a target="_blank" href="https://goo.gl/maps/aUYkM3R5z5QvQHYa9">Comercializadora Pecuaria de México, S.A. de C.V.</a>
@@ -51,7 +51,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-xl-6 col-lg-6 col-md-12">
                             <div class="cont_card_footer">
                                 <img src="Public/images/svg/icon_mediker_mark_map.svg" alt="">
                                 <a href="https://goo.gl/maps/5RviSkEo4VSXbzTcA">C. Indé No. 824 4ta. Etapa, Parque Industrial, Gómez Palacio, Dgo. C.P. 35078 México</a>
@@ -69,10 +69,10 @@
             <div class="col-md-12">
                 <div class="container">
                     <div class="row row_legales_second">
-                        <div class="col-md-6">
+                        <div class="col-xl-6 col-lg-6 col-md-8 col-sm-12">
                             <p>Copyright ©2023 Comercializadora Pecuaria de México | Mediker</p>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-xl-6 col-lg-6 col-md-4 col-sm-12">
                             <ul class="list_footer_social">
                                 <a target="_blank" href="https://www.facebook.com/MedikerPH/">
                                     <li class="item_foot_social">

@@ -143,7 +143,7 @@
             </div>
             <div class="row">
                 <!-- G. LECHERO -->
-                <div class="col-md-4">
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                     <article class="card_product home__photo1">
                         <div class="cont_card_icon">
                             <img src="Public/images/svg/vaca_lechera.svg" alt="Mediker icono de una vaca lechera">
@@ -153,7 +153,7 @@
                     </article>
                 </div>
                 <!-- G. ENGORDA -->
-                <div class="col-md-4">
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                     <article class="card_product home__photo2">
                         <div class="cont_card_icon">
                             <img src="Public/images/svg/vaca_lechera.svg" alt="Mediker icono de una vaca lechera">
@@ -163,7 +163,7 @@
                     </article>
                 </div>
                 <!-- AVES -->
-                <div class="col-md-4">
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                     <article class="card_product home__photo3">
                         <div class="cont_card_icon">
                             <img src="Public/images/svg/vaca_lechera.svg" alt="Mediker icono de una vaca lechera">
@@ -172,10 +172,8 @@
                         </div>
                     </article>
                 </div>
-            </div>
-            <div class="row">
                 <!-- CERDOS -->
-                <div class="col-md-4">
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                     <article class="card_product home__photo1">
                         <div class="cont_card_icon">
                             <img src="Public/images/svg/vaca_lechera.svg" alt="Mediker icono de una vaca lechera">
@@ -185,7 +183,7 @@
                     </article>
                 </div>
                 <!-- EQUINOS -->
-                <div class="col-md-4">
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                     <article class="card_product home__photo2">
                         <div class="cont_card_icon">
                             <img src="Public/images/svg/vaca_lechera.svg" alt="Mediker icono de una vaca lechera">
@@ -195,7 +193,7 @@
                     </article>
                 </div>
                 <!-- OVICAPRINOS -->
-                <div class="col-md-4">
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                     <article class="card_product home__photo3">
                         <div class="cont_card_icon">
                             <img src="Public/images/svg/vaca_lechera.svg" alt="Mediker icono de una vaca lechera">
@@ -227,7 +225,7 @@
                 </div>
             </div>
             <div class="row fila_destacados">
-                <div class="col-md-3">
+                <div class="col-xl-3 col-lg-3 col-sm-6">
                     <div class="cont_pto_destacado home__photo1">
                         <img src="Public/images/Mediker-electrolitos-mdkr-infusion-cover.png" alt="Mediker Infusión Intramamaria">
                         <h6 class="tit_cuarto">ELECTROLITOS MDKR</h6>
@@ -235,7 +233,7 @@
                         <a class="btn_complementario" href="#">Ver producto</a>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-xl-3 col-lg-3 col-sm-6">
                     <div class="cont_pto_destacado home__photo2">
                         <img src="Public/images/Mediker-ovoplex-cover.png" alt="Mediker Factor liberador de Ganodotropinas">
                         <h6 class="tit_cuarto">OVOPLEX</h6>
@@ -243,7 +241,7 @@
                         <a class="btn_complementario" href="#">Ver producto</a>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-xl-3 col-lg-3 col-sm-6">
                     <div class="cont_pto_destacado home__photo3">
                         <img src="Public/images/Mediker-protekto-vac.png" alt="Mediker Antibiótico de Amplio espectro">
                         <h6 class="tit_cuarto">PROTEKTO VAC</h6>
@@ -251,7 +249,7 @@
                         <a class="btn_complementario" href="#">Ver producto</a>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-xl-3 col-lg-3 col-sm-6">
                     <div class="cont_pto_destacado home__photo4">
                         <img src="Public/images/Mediker-bromeg-mdkr.png" alt="Mediker Factor liberador de Ganodotropinas">
                         <h6 class="tit_cuarto">BROMEG MDKR</h6>
@@ -272,26 +270,8 @@
         </div>
     </section>
 
-    <!-- BANNER FARMACÉUTICA -->
-    <section id="banner_farma" class="cont_farmaceutica">
-        <div class="container">
-            <!-- LEFT -->
-            <div class="cont_gen_left">
-                <div class="cont_txt_left">
-                    <h1 class="tit_principal_bn">FARMACÉUTICA <br> DE CALIDAD</h1>
-                    <p class="txt_general_bn">Nuestro Laboratorio de control de calidad autorizado ante S.A.D.E.R. - S.E.N.A.S.I.C.A. nos permite asegurar la calidad de nuestros procesos y productos.</p>
-                </div>
-                <div class="sombra_cont_left"></div>
-            </div>
-            <!-- RIGHT -->
-            <div class="cont_gen_right">
-                <div class="cont_img_right">
-                    <img class="img_banner_farmaceutica" src="Public/images/mediker_banner_farmaceutica_bg.jpg" alt="">
-                </div>
-                <div class="sombra_cont_right"></div>
-            </div>
-        </div>
-    </section>
+    <!-- NUESTROS SERVICIOS -->
+    <?php include_once "Public/includes/farmaceutica.php" ?>
 
     <!-- NUESTROS SERVICIOS -->
     <?php include_once "Public/includes/servicios.php" ?>

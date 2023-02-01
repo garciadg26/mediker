@@ -46,6 +46,7 @@
 
 body{
     font-size: 16px;
+    overflow-x: hidden!important;
 }
 
     /* FONTS */
@@ -377,6 +378,9 @@ p, a{
 .scroll-header{
     background-color: var(--color-white)!important;
 }
+.scroll-header .menu_social_top{
+    transition: all 0.4;
+}
 .scroll-header .icon_facebook, .scroll-header .icon_instagram, .scroll-header .icon_youtube, .scroll-header .icon_envelope, .scroll-header .icon_phone{
     fill: var(--color-azul-rey);
 }
@@ -392,12 +396,17 @@ p, a{
 .scroll-header::before, .scroll-header::after {
     background-color: var(--color-gris-white)!important;
 }
-
 .scroll-header .navbar-brand .brand{
     width: 200px;
     height: 45px;
     background-image: url("../images/svg/mediker-logotipo_azul_menu.svg");
 }
+.scroll-header .navbar .navbar-toggler-icon i{
+    color: var(--color-azul-rey);
+    font-size: 2rem;
+}
+
+
     /* SLIDE */
 .slide_txt{
     display: flex;
@@ -1323,5 +1332,154 @@ h4.tit_slider{
     #menu_principal{
         background-color: var(--color-azul-rey);
     }
+    .list_animals li.item_animals:nth-child(n + 12){
+        display: none;
+    }
+    .fila_destacados{
+        margin-top: 0;
+    }
+    #pto_destacado .fila_destacados > div{
+        margin-top: 60px;
+    }
+    .cont_gen_left{
+        margin: 0 auto;
+    }
+    .cont_txt_left{
+        position: relative;
+    }
+    .img_banner_farmaceutica{
+        margin-left: 0;
+        width: 100%;
+    }
+    .cont_gen_right{
+        margin-top: -100px;
+    }
+    .id_servicios .row > div:nth-child(1){
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .id_servicios .row > div:nth-child(1) .content_btn{
+        margin-bottom: 0px;
+    }
+    .cont_logo_footer{
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    #navbarNav{
+        margin-left: 40px;
+    }
 }
 
+    /* MAX 767 */
+@media screen and (max-width:767px){
+    .bienv_colum_right img {
+        position: relative;
+        top: 0px;
+        width: 50%;
+    }
+    .bienv_colum_right{
+        border-left: 0px;
+        text-align: center;
+    }
+    .list_animals li.item_animals:nth-child(n + 8){
+        display: none;
+    }
+    .cont_farmaceutica .tit_principal_bn{
+        font-size: 6vw;
+    }
+    .cont_gen_left {
+        max-width: 80%;
+    }
+    .cont_txt_left{
+        background-size: 200%;
+    }
+    .cont_servicios{
+        margin-bottom: 20px;
+    }
+    .list_footer_menu{
+        flex-direction: row;
+        text-align: center;
+    }
+    .list_footer_menu a{
+        width: 33%;
+    }
+    .cont_card_footer{
+        width: 90%;
+        min-height: 50px;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    #foot .list_contact_phone a{
+        margin: 12px 0px 0px 0px;
+    }
+    #foot > div:nth-child(1){
+        margin-bottom: 40px;
+    }
+}
+
+
+    /* MAX 568 */
+@media screen and (max-width:568px){
+    h4.tit_slider{
+        font-size: 1.8rem;
+        line-height: 2rem;
+    }
+    .menu_social_top{
+        flex-direction: column;
+    }
+    .menu_social_top ul{
+        justify-content: center;
+        padding: 6px 0px 0px;
+    }
+    #menu_principal::before {
+        top: 72px;
+    }
+    .cont_txt_left {
+        background-size: 302%;
+        padding: 30px 24px 20px 24px;
+    }
+    .cont_gen_right {
+        margin-top: -40px;
+    }
+    .cont_card_footer {
+        flex-wrap: nowrap;
+    }
+    #foot .row > div:nth-child(3){
+        margin-left: 20px;
+    }
+    .row_legales .row_legales_second{
+        text-align: center;
+    }
+    .row_legales .list_footer_social{
+        justify-content: center;
+    }
+    .list_footer_social a {
+        margin: 0px 16px;
+    }
+    .sombra_cont_left {
+        z-index: 2;
+        height: 40px;
+        width: 96%;
+        left: 10px;
+        top: 280px;
+    }
+    #banner_farma {
+        padding: 40px 0px 60px 0px;
+    }
+    .list_animals li.item_animals:nth-child(n + 6){
+        display: none;
+    }
+    .txt_slide {
+        font-size: 1rem;
+    }
+    .owl-carousel.home-slider .owl-nav .owl-prev {
+        margin-top: -32%;
+        left: 0;
+        margin-left: 60%;
+    }
+    .owl-carousel.home-slider .owl-nav .owl-next {
+        margin-top: -32%;
+        right: 0;
+        margin-right: 22%;
+    }
+}
