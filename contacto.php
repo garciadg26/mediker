@@ -45,7 +45,7 @@
                     <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
                         <h4 class="tit_secundario">CONTÁCTANOS</h4>
                         <form class="formulario" id="formulario">
-                            <div class="row form_row1">
+                            <div class="row">
                                 <div class="col-md-12">
                                     <!-- Grupo: Nombre -->
                                     <div class="formulario__grupo" id="grupo__nombre">
@@ -53,11 +53,9 @@
                                             <input type="text" class="formulario__input" name="nombre" id="nombre" placeholder="Nombre completo"> 
                                             <i class="formulario__validacion-estado fas fa-times-circle"></i>
                                         </div>
-                                        <p class="formulario__input-error">El Nombre tiene que ser de 4 a 16 dígitos y solo puede contener letras.</p>
+                                        <p class="formulario__input-error">El nombre solo puede contener letras.</p>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="row form_row2">
                                 <div class="col-md-6">
                                     <!-- Grupo: Correo Electronico -->
                                     <div class="formulario__grupo" id="grupo__correo">
@@ -65,7 +63,7 @@
                                             <input type="email" class="formulario__input" name="correo" id="correo" placeholder="Email">
                                             <i class="formulario__validacion-estado fas fa-times-circle"></i>
                                         </div>
-                                        <p class="formulario__input-error">El correo solo puede contener letras, numeros, puntos, guiones y guion bajo.</p>
+                                        <p class="formulario__input-error">El correo solo puede contener letras, números, puntos, guiones y guión bajo.</p>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
@@ -75,11 +73,9 @@
                                             <input type="text" class="formulario__input" name="telefono" id="telefono" placeholder="Whatsapp">
                                             <i class="formulario__validacion-estado fas fa-times-circle"></i>
                                         </div>
-                                        <p class="formulario__input-error">El telefono solo puede contener numeros y el maximo son 12 dígitos.</p>
+                                        <p class="formulario__input-error">El teléfono solo puede contener números y el maximo son 12 dígitos.</p>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="row form_row3">
                                 <div class="col-md-12">
                                     <textarea class="formulario__input" name="mensaje" id="mensaje" placeholder="Comentario o duda"></textarea>
                                 </div>    
@@ -87,7 +83,7 @@
                             <div class="row form_row4">
                                 <div class="col-md-12">
                                     <div class="formulario__mensaje" id="formulario__mensaje">
-                                        <p><i class="fas fa-exclamation-triangle"></i> <b>Error:</b> Por favor llena el formulario correctamente. </p>
+                                        <p><b>Error:</b> Por favor llena el formulario correctamente. </p>
                                     </div>
                                     <input type="submit" value="Enviar">
                                     <p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Formulario enviado exitosamente!</p>
@@ -100,7 +96,7 @@
         </div>
     </section>
     <!-- MAPA UBICACION -->
-    <section>
+    <section id="mapa_contacto">
         <div class="row">
             <div class="col-md-12">
             <iframe width="100%" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1799.3495165564984!2d-103.457787!3d25.581678!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x868fd9f339332cad%3A0x76eb08309c910ded!2sMediker%20Professional%20Health!5e0!3m2!1ses!2smx!4v1675144115191!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>       
@@ -110,7 +106,7 @@
 
     <!-- FOOTER -->
     <?php include_once "Public/includes/footer.php"; ?>
-    <script type="text/javascript" src="Public/js/pagination.js"></script>
+    <script type="text/javascript" src="Public/js/form.js?ver=1.1.0"></script>
 
 </body>
 </html>

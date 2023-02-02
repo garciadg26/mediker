@@ -64,7 +64,7 @@ function menuActive(){
     // CONTACTO
     if(document.URL.includes('contacto.php')){
         $('.navbar-nav li, .list_footer_menu a li').removeClass("active");
-        $('.navbar-nav li:nth-child(7), .list_footer_menu a:nth-child(6) li').addClass("active");       
+        $('.navbar-nav li:nth-child(7), .list_footer_menu a:nth-child(7) li').addClass("active");       
         header.classList.add('color_white');
     }
 }

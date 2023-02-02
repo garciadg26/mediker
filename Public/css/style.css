@@ -680,7 +680,7 @@ h4.tit_slider{
     padding-left: 0;
     list-style: none;
     flex-wrap: wrap;
-    max-height: 150px;
+    max-height: 180px;
 }
 .list_footer_menu a{
     margin-bottom: 16px;
@@ -1009,6 +1009,12 @@ h4.tit_slider{
     margin-right: 0;
 }
 
+    /* MENÚ IZQUIERDO */
+.cont_menu_izq{
+    position: sticky;
+    top: 160px;
+}
+
 #productos_filter{
     padding: 60px 0px;
     background: rgb(238,240,243);
@@ -1088,6 +1094,9 @@ h4.tit_slider{
 }
 
     /* INFORMACIÓN DE PRODUCTOS */
+.info_producto .btn_right{
+    text-align: right;
+}
 #info_producto .row{
     align-items: center;
 }
@@ -1209,11 +1218,15 @@ h4.tit_slider{
 .contacto_izq .contact_icon{
     fill: var(--color-azul-rey);
 }
+#mapa_contacto .row{
+    width: 100%;
+}
+#mapa_contacto .col-md-12{
+    padding-left: 0;
+    padding-right: 0;
+}
 
     /* FORMULARIO */
-#formulario{
-    margin-top: 28px;
-}
 #formulario input[type=text], #formulario input[type=tel], #formulario input[type=email]{
     width: 100%;
     box-sizing: border-box;
@@ -1222,7 +1235,7 @@ h4.tit_slider{
     border-radius: 8px;
     font-family: var(--font-acumin-pro-condensed);
     border:1px solid var(--color-gris-claro-azulado);
-    margin-bottom: 28px;
+    margin-top: 28px;
 }
 #formulario textarea{
     width: 100%;
@@ -1232,6 +1245,7 @@ h4.tit_slider{
     border-radius: 8px;
     border:1px solid var(--color-gris-claro-azulado);
     font-family: var(--font-acumin-pro-condensed);
+    margin-top: 28px;
     margin-bottom: 12px;
 }
 #formulario input[type=submit]{
@@ -1245,8 +1259,8 @@ h4.tit_slider{
 
 /* __MENSAJE DE ERROR__ */
 .formulario__input-error {
-    font-size: 12px;
-    margin-bottom: 0;
+    font-size: .8rem;
+    margin: 10px 0px 0px 16px;
     display: none;
 }
 .formulario__input-error-activo {
@@ -1255,7 +1269,7 @@ h4.tit_slider{
 .formulario__validacion-estado {
     position: absolute;
     right: 16px;
-    top: 10px;
+    top: 38px;
     z-index: 100;
     font-size: 16px;
     opacity: 0;
@@ -1266,6 +1280,8 @@ h4.tit_slider{
 	background: #F66060;
 	padding: 0 15px;
 	border-radius: 3px;
+    margin-bottom: 16px;
+    text-align: center;
 	display: none;
 }
 .formulario__mensaje-activo {
@@ -1273,7 +1289,14 @@ h4.tit_slider{
 }
 .formulario__mensaje-exito {
 	font-size: 14px;
-	color: #119200;
+    height: 45px;
+	line-height: 45px;
+	background: #119200;
+	padding: 0 15px;
+	border-radius: 3px;
+    margin-top: 16px;
+	color: var(--color-white);
+    text-align: center;
 	display: none;
 }
 .formulario__mensaje-exito-activo {
@@ -1321,7 +1344,7 @@ h4.tit_slider{
         border-radius: 15px;
     }
     .color_white .navbar-nav > .active > a::before {
-        background-color: var(--color-white);
+        background-color: var(--color-azul-normal);
     }
     .scroll-header .navbar-nav > .active > a::before {
         background-color: var(--color-azul-normal);
@@ -1387,6 +1410,9 @@ h4.tit_slider{
     .cont_farmaceutica .tit_principal_bn{
         font-size: 6vw;
     }
+    .cont_farmaceutica .txt_general_bn{
+        line-height: 1.2rem;
+    }
     .cont_gen_left {
         max-width: 80%;
     }
@@ -1421,7 +1447,7 @@ h4.tit_slider{
     /* MAX 568 */
 @media screen and (max-width:568px){
     h4.tit_slider{
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         line-height: 2rem;
     }
     .menu_social_top{
@@ -1470,16 +1496,148 @@ h4.tit_slider{
         display: none;
     }
     .txt_slide {
+        width: 100%;
         font-size: 1rem;
     }
+    h4.tit_slider{
+        width: 100%;
+    }
+    .slide_txt{
+        flex-direction: column;
+    }
+    .slide_cont_up::after{
+        bottom: 56%;
+    }
     .owl-carousel.home-slider .owl-nav .owl-prev {
-        margin-top: -32%;
-        left: 0;
-        margin-left: 60%;
+        margin-top: -28%!important;
+        left: 0!important;
+        margin-left: 60%!important;
     }
     .owl-carousel.home-slider .owl-nav .owl-next {
-        margin-top: -32%;
-        right: 0;
-        margin-right: 22%;
+        margin-top: -28%!important;
+        right: 0!important;
+        margin-right: 22%!important;
     }
-}
+    .tab-content .tab-pane::before{
+        width: 64%;
+    }
+    .head_nosotros .row > div {
+        padding: 40px 16px 10px 16px;
+    }
+    .head_nosotros .row > div:nth-child(2) {
+        padding-left: 16px;
+        padding: 20px 16px 40px 16px;
+    }
+    .list_nosotros_animals .item_animal{
+        font-size: 1rem;
+    }
+    #animals_nostr{
+        margin-top: 30px;
+        background-position: center 130px;
+    }
+    .fila_list_animals{
+        padding: 40px 16px 80px 24px;
+    }
+    .list_nosotros_animals .item_animal::before{
+        margin-top: 6px;
+    }
+    .cont_pto_destacado .btn_complementario {
+        position: relative;
+        bottom: 0px;
+        margin-left: 0;
+        font-size: 1.2rem;
+    }
+    .list_footer_menu {
+        justify-content: center;
+    }
+        /* NOSOTROS */
+    .section_valores{
+        padding: 60px 0px 40px 0px;
+    }
+    .list_valores{
+        padding-left: 16px;
+    }
+    .list_valores .item_valores::before{
+        left: 16px;
+    }
+    .btn_flotante{
+        top: -90px;
+    }
+    .list_nosotros_animals{
+        margin-bottom: 0px;
+    }
+    .nav-pills .nav-link{
+        font-size: 1.2rem
+    }
+    .nav-link{
+        padding: 6px 40px;
+        margin-bottom: 20px;
+    }
+    .tab-content{
+        padding: 32px 24px;
+    }
+    .tab_historia{
+        padding: 60px 0px 0px 0px;
+    }
+    #pto_especializado{
+        padding: 0px;
+    }
+    #banner_farma {
+        padding: 0px 0px 40px 0px;
+    }
+    .head_hacemos .row > div:nth-child(1) {
+        padding: 60px 16px 20px 16px;
+    }
+    .head_hacemos .row > div:nth-child(2){
+        padding: 0px 16px 40px 16px;
+    }
+    .list_valores{
+        margin-bottom: 0;
+    }
+    .breadcrumb-item:nth-child(1) {
+        margin-left: 0;
+    }
+    /* PRODUCTOS */
+    #productos_filter{
+        padding: 28px 0px 40px 0px;
+    }
+    .cont_productos_der{
+        margin-top: 40px;
+    }
+    .cont_menu_izq {
+        position: relative;
+        top: 0;
+    }
+    .cont_productos_der .row .pagination-items{
+        margin: 0px 16px;
+    }
+    .pagination-items .article-loop{
+        width: 50%;
+    }
+    .article-loop > *{
+        width: calc(100% - 16px);
+    }
+    .productos_general .tit_secundario{
+        margin-bottom: 40px;
+    }
+    .col_left_pto_descrp {
+        padding: 40px 16px;
+    }
+    .info_producto .btn_right{
+        margin-top: 20px;
+    }
+    .info_producto .btn_right, .info_producto .btn_center{
+        margin-bottom: 48px;
+        text-align: center;
+    }
+    /* BREADCRUMB */
+    .breadcrumb{
+        flex-direction: column;
+    }
+    .section_contacto .col-md-7{
+        margin-top: 40px;
+    }
+    .cont_pto_especial .tit_cuarto{
+        font-size: 1rem;
+    }
+} 

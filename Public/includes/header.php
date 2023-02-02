@@ -30,4 +30,4 @@
     <!-- ESTILOS GENERALES -->
     <link rel="stylesheet" href="Public/css/bootstrap.min.css">
     <link rel="stylesheet" href="Public/css/animate.css">
-    <link rel="stylesheet" href="Public/css/style.css?ver=1.1.01">
+    <link rel="stylesheet" href="Public/css/style.css?ver=1.1.22">

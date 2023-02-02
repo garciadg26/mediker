@@ -61,14 +61,14 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <img src="Public/images/Mediker-foto-producto-fosfoplex.jpg" alt="">
+                    <img class="img-fluid" src="Public/images/Mediker-foto-producto-fosfoplex.jpg" alt="">
                     <div class="row">
-                        <div class="col-md-6 text-right">
+                        <div class="col-md-6 btn_right">
                             <div class="content_btn">
                                 <a href="#" class="btn_gen btn_principal">Descargar ficha técnica</a>
                             </div>
                         </div>
-                        <div class="col-md-6 ">
+                        <div class="col-md-6 btn_center">
                             <div class="content_btn">
                                 <a href="#" class="btn_gen btn_secundario">Contacto</a>
                             </div>

@@ -244,79 +244,79 @@
             </div>
             <!-- PRIMERA FILA -->
             <div class="row justify-content-center">
-                <div class="col-lg-3 col-md-4 col-sm-6 pb-5">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6 pb-5">
                     <div class="cont_pto_especial">
                         <img class="img-fluid color_01" src="Public/images/svg/icon_desparasitantes_inyectables.svg" alt="">
                         <h6 class="tit_cuarto">DESPARASITANTES INTECTABLES</h6>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 pb-5">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6 pb-5">
                     <div class="cont_pto_especial">
                         <img class="img-fluid color_02" src="Public/images/svg/icon_antibioticos_y_quimioterapicos.svg" alt="">
                         <h6 class="tit_cuarto">ANTIBIÓTICOS Y QUIMIOTERAPICOS</h6>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 pb-5">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6 pb-5">
                     <div class="cont_pto_especial">
                         <img class="img-fluid color_03" src="Public/images/svg/icon_hormonales.svg" alt="">
                         <h6 class="tit_cuarto">ANTIBIÓTICOS Y QUIMIOTERAPICOS</h6>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 pb-5">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6 pb-5">
                     <div class="cont_pto_especial">
                         <img class="img-fluid color_04" src="Public/images/svg/icon_productos_solubles.svg" alt="">
                         <h6 class="tit_cuarto">ANTIBIÓTICOS Y QUIMIOTERAPICOS</h6>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 pb-5">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6 pb-5">
                     <div class="cont_pto_especial">
                         <img class="img-fluid color_05" src="Public/images/svg/icon_otc.svg" alt="">
                         <h6 class="tit_cuarto">OTC</h6>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 pb-5">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6 pb-5">
                     <div class="cont_pto_especial">
                         <img class="img-fluid color_06" src="Public/images/svg/icon_desparasitantes_orales.svg" alt="">
                         <h6 class="tit_cuarto">DESPARASITANTES ORALES</h6>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 pb-5">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6 pb-5">
                     <div class="cont_pto_especial">
                         <img class="img-fluid color_07" src="Public/images/svg/icon_electrolitos_vitaminicos.svg" alt="">
                         <h6 class="tit_cuarto">ELECTROLITOS Y VITAMÍNICOS</h6>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 pb-5">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6 pb-5">
                     <div class="cont_pto_especial">
                         <img class="img-fluid color_08" src="Public/images/svg/icon_desparasitantes_solubles.svg" alt="">
                         <h6 class="tit_cuarto">DESPARASITANTES SOLUBLES</h6>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 pb-5">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6 pb-5">
                     <div class="cont_pto_especial">
                         <img class="img-fluid color_09" src="Public/images/svg/icon_intramamarios.svg" alt="">
                         <h6 class="tit_cuarto">INTRAMAMARIOS</h6>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 pb-5">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6 pb-5">
                     <div class="cont_pto_especial">
                         <img class="img-fluid color_10" src="Public/images/svg/icon_desinfectantes_y_sanitizantes.svg" alt="">
                         <h6 class="tit_cuarto">DESINFECTANTES Y SANITIZANTES</h6>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 pb-5">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6 pb-5">
                     <div class="cont_pto_especial">
                         <img class="img-fluid color_06" src="Public/images/svg/icon_sueros_y_soluciones.svg" alt="">
                         <h6 class="tit_cuarto">SUEROS Y SOLUCIONES</h6>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 pb-5">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6 pb-5">
                     <div class="cont_pto_especial">
                         <img class="img-fluid color_07" src="Public/images/svg/icon_premezclas.svg" alt="">
                         <h6 class="tit_cuarto">PREMEZCLAS</h6>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 pb-5">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6 pb-5">
                     <div class="cont_pto_especial">
                         <img class="img-fluid color_08" src="Public/images/svg/icon_antiinflamatorios.svg" alt="">
                         <h6 class="tit_cuarto">ANTIINFLAMATORIOS</h6>
@@ -327,25 +327,7 @@
     </section>
 
     <!-- BANNER FARMACÉUTICA -->
-    <section id="banner_farma" class="cont_farmaceutica">
-        <div class="container">
-            <!-- LEFT -->
-            <div class="cont_gen_left">
-                <div class="cont_txt_left">
-                    <h1 class="tit_principal_bn">FARMACÉUTICA <br> DE CALIDAD</h1>
-                    <p class="txt_general_bn">Nuestro Laboratorio de control de calidad autorizado ante S.A.D.E.R. - S.E.N.A.S.I.C.A. nos permite asegurar la calidad de nuestros procesos y productos.</p>
-                </div>
-                <div class="sombra_cont_left"></div>
-            </div>
-            <!-- RIGHT -->
-            <div class="cont_gen_right">
-                <div class="cont_img_right">
-                    <img class="img_banner_farmaceutica" src="Public/images/mediker_banner_farmaceutica_bg.jpg" alt="">
-                </div>
-                <div class="sombra_cont_right"></div>
-            </div>
-        </div>
-    </section>
+    <?php include_once "Public/includes/farmaceutica.php" ?>
 
     <!-- NUESTROS SERVICIOS -->
     <?php include_once "Public/includes/servicios.php"; ?>

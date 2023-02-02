@@ -21,6 +21,9 @@
                         <a href="noticias.php">
                             <li class="item_footer_menu">NOTICIAS</li>
                         </a>
+                        <a href="distribuidores.php">
+                            <li class="item_footer_menu">DISTRIBUIDORES</li>
+                        </a>
                         <a href="contacto.php">
                             <li class="item_footer_menu">CONTACTO</li>
                         </a>
@@ -102,7 +105,7 @@
 
     <!-- SCRIPT GENERALES -->
     <script type="text/javascript" src="Public/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="Public/js/main.js?ver=1.1.11"></script>
+    <script type="text/javascript" src="Public/js/main.js?ver=1.1.12"></script>
 
     <!-- SCROLL REVEAL -->
     <script src="https://unpkg.com/scrollreveal"></script>
