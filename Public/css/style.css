@@ -110,6 +110,9 @@ p, a{
 .txt_general{
     color: var(--color-azul-rey);
 }
+.info_producto p{
+    color: var(--color-azul-rey);
+}
 .txt_general_bn{
     color: var(--color-white);
 }
@@ -1035,6 +1038,9 @@ h4.tit_slider{
 .cont_p_indv img{
     margin-bottom: 16px;
 }
+.cont_p_indv p{
+    margin-bottom: 0;
+}
 .nom_producto{
     font-family: var(--font-acumin-pro-condensed);  
     font-weight: bold; 
@@ -1107,6 +1113,7 @@ h4.tit_slider{
 .con_especies{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 .con_especies .item_especies{
     background-color: #BAD9E2;

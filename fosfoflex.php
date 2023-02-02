@@ -70,7 +70,7 @@
                         </div>
                         <div class="col-md-6 btn_center">
                             <div class="content_btn">
-                                <a href="#" class="btn_gen btn_secundario">Contacto</a>
+                                <a href="contacto.php" class="btn_gen btn_secundario">Contacto</a>
                             </div>
                         </div>
                     </div>

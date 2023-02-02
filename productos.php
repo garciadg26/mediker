@@ -31,20 +31,7 @@
                 <div class="col-xl-3 col-lg-3 col-md-12 cont_iqz">
                     <!-- MENÚ IZQUIERDO -->
                     <div id="menu_izq" class="cont_menu_izq">
-                        <div id="list-example" class="list-group">
-                            <a class="list-group-item list-group-item-action" href="#">ANTIBIÓTICOS Y QUIMIOTERÁPICOS</a>
-                            <a class="list-group-item list-group-item-action" href="#">DESINFECTANTES Y SANITIZANTES</a>
-                            <a class="list-group-item list-group-item-action" href="#">DESPARASITANTES INYECTABLES</a>
-                            <a class="list-group-item list-group-item-action" href="#">DESPARASITANTES ORALES</a>
-                            <a class="list-group-item list-group-item-action" href="#">DESPARASITANTES SOLUBLES</a>
-                            <a class="list-group-item list-group-item-action" href="#">ELECTRÓLITOS Y VITAMÍNICOS</a>
-                            <a class="list-group-item list-group-item-action" href="#">HORMONALES</a>
-                            <a class="list-group-item list-group-item-action" href="#">INTRAMAMARIOS</a>
-                            <a class="list-group-item list-group-item-action" href="#">OTC</a>
-                            <a class="list-group-item list-group-item-action" href="#">PREMEZCLAS</a>
-                            <a class="list-group-item list-group-item-action" href="#">PRODUCTOS SOLUBLES</a>
-                            <a class="list-group-item list-group-item-action" href="#">SUEROS Y SOLUCIONES</a>
-                        </div>
+                        <?php include 'Public/includes/submenu.php';?>
                     </div>
                 </div>
                 <div class="col-xl-9 col-lg-9 col-md-12 cont_productos_der">

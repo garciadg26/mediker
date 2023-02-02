@@ -1,4 +1,10 @@
-    <div id="menu_principal">
+<?php
+    if(@$color_white=='si'){
+        echo '<div id="menu_principal" class="color_white">';
+    } else {
+        echo '<div id="menu_principal">';
+    }
+?>
         <div class="container">
             <header id="inicio_encabezado" class="encabezado">
             <!-- NAVEGACIÓN -->
