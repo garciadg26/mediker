@@ -48,94 +48,65 @@
 
                         <!-- PRIMERA FILA -->
                            
+
+
+
+
                             <div class="col-12 col-lg-4">
-                                <a href="Neumoplex-Plus-PX.php?cat=<?php echo $cadena; ?>" class="nom_producto d-block">
+                                <a href="Vitaforce-C-MDKR.php?cat=<?php echo $cadena; ?>" class="nom_producto d-block">
                                     <div class="article-loop">
                                         <div class="cont_p_indv">
-                                            <img class="mask img-fluid" src="Public/images/neumoplex-plus-px-01.jpg" alt="Mediker Neumoplex Plus PX" width="130">
-                                            <p>Neumoplex Plus PX</p>
+                                            <img class="mask img-fluid" src="Public/images/vitaforce-c-mdkr-01.jpg" alt="Mediker Vitaforce C MDKR" width="130">
+                                            <p>Vitaforce C MDKR</p>
                                         </div>
                                     </div>
                                 </a>
                             </div>
 
                             <div class="col-12 col-lg-4">
-                                <a href="Naturex-CTC-TML-PX.php?cat=<?php echo $cadena; ?>" class="nom_producto d-block">
+                                <a href="Electrolitos-MDKR.php?cat=<?php echo $cadena; ?>" class="nom_producto d-block">
                                     <div class="article-loop">
                                         <div class="cont_p_indv">
-                                            <img class="mask img-fluid" src="Public/images/naturex-ctc-tml-premix-01.jpg" alt="Mediker Naturex CTC+TML PX" width="130">
-                                            <p>Naturex CTC+TML PX</p>
+                                            <img class="mask img-fluid" src="Public/images/electrolitos-mediker-01.jpg" alt="Mediker Electrolitos MDKR" width="130">
+                                            <p>Electrolitos MDKR</p>
                                         </div>
                                     </div>
                                 </a>
                             </div>
 
                             <div class="col-12 col-lg-4">
-                                <a href="Florfenicol-PX.php?cat=<?php echo $cadena; ?>" class="nom_producto d-block">
+                                <a href="Vitaforce-ADE.php?cat=<?php echo $cadena; ?>" class="nom_producto d-block">
                                     <div class="article-loop">
                                         <div class="cont_p_indv">
-                                            <img class="mask img-fluid" src="Public/images/florfenicol-px-2-01.jpg" alt="Mediker Florfenicol 2% PX" width="130">
-                                            <p>Florfenicol 2% PX</p>
+                                            <img class="mask img-fluid" src="Public/images/vitaforce-ade-01.jpg" alt="Mediker Vitaforce ADE" width="130">
+                                            <p>Vitaforce ADE</p>
                                         </div>
                                     </div>
                                 </a>
                             </div>
 
                             <div class="col-12 col-lg-4">
-                                <a href="TF-PX-MDKR.php?cat=<?php echo $cadena; ?>" class="nom_producto d-block">
+                                <a href="Rehidra-Milk.php?cat=<?php echo $cadena; ?>" class="nom_producto d-block">
                                     <div class="article-loop">
                                         <div class="cont_p_indv">
-                                            <img class="mask img-fluid" src="Public/images/neumoplex-plus-mdkr.jpg" alt="Mediker TF PX MDKR" width="130">
-                                            <p>TF PX MDKR</p>
+                                            <img class="mask img-fluid" src="Public/images/rehidra-milk.jpg" alt="Mediker Rehidra Milk" width="130">
+                                            <p>Rehidra Milk</p>
                                         </div>
                                     </div>
                                 </a>
                             </div>
 
                             <div class="col-12 col-lg-4">
-                                <a href="Oxitetra-Premix.php?cat=<?php echo $cadena; ?>" class="nom_producto d-block">
+                                <a href="Hidra-Vit.php?cat=<?php echo $cadena; ?>" class="nom_producto d-block">
                                     <div class="article-loop">
                                         <div class="cont_p_indv">
-                                            <img class="mask img-fluid" src="Public/images/neumoplex-plus-mdkr.jpg" alt="Mediker Oxitetra Premix 50%" width="130">
-                                            <p>Oxitetra Premix 50%</p>
+                                            <img class="mask img-fluid" src="Public/images/hidra-vit-01.jpg" alt="Mediker Hidra Vit" width="130">
+                                            <p>Hidra Vit</p>
                                         </div>
                                     </div>
                                 </a>
                             </div>
-
-                            <div class="col-12 col-lg-4">
-                                <a href="Naturex-Bio.php?cat=<?php echo $cadena; ?>" class="nom_producto d-block">
-                                    <div class="article-loop">
-                                        <div class="cont_p_indv">
-                                            <img class="mask img-fluid" src="Public/images/neumoplex-plus-mdkr.jpg" alt="Mediker Naturex Bio 20%" width="130">
-                                            <p>Naturex Bio 20%</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-
-                            <div class="col-12 col-lg-4">
-                                <a href="CTC-PX-MDKR.php?cat=<?php echo $cadena; ?>" class="nom_producto d-block">
-                                    <div class="article-loop">
-                                        <div class="cont_p_indv">
-                                            <img class="mask img-fluid" src="Public/images/neumoplex-plus-mdkr.jpg" alt="Mediker CTC PX MDKR" width="130">
-                                            <p>CTC PX MDKR</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-
-                            <div class="col-12 col-lg-4">
-                                <a href="Oxitetra-Premix.php?cat=<?php echo $cadena; ?>" class="nom_producto d-block">
-                                    <div class="article-loop">
-                                        <div class="cont_p_indv">
-                                            <img class="mask img-fluid" src="Public/images/neumoplex-plus-mdkr.jpg" alt="Mediker Oxitetra Premix 20%" width="130">
-                                            <p>Oxitetra Premix 20%</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-
+                            
 
 
                         </div>

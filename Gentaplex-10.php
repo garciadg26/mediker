@@ -1,0 +1,125 @@
+
+    <?php
+        $color_white = "si";
+        $producto = "Gentaplex 10%";
+        $categoria = $_GET['cat'];
+        $categoria =str_replace('-', ' ', $categoria);
+        $categoria_url = $_GET['cat'];
+        $title = "$producto | Mediker - Comercializadora Pecuaria de México";
+    ?>
+    <?php include_once "Public/includes/header.php" ?>
+
+</head>
+<body>
+
+    <?php include_once "Public/includes/nav.php"; ?>
+
+    <!-- ESPACIO MENU FIXED -->
+    <div class="space_fixed"></div>
+
+    <!-- BREADCRUMB -->
+    <section id="breadcrumb" class="section_breadcrumb">
+        <div class="row">
+            <div class="col-md-12">
+                <nav aria-label="breadcrumb">
+                    <?php include "Public/includes/breadcrumb.php"; ?>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <!-- INFORMACIÓN -->
+    <section id="info_producto" class="info_producto">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col_left_pto_descrp">
+                    <h1 class="tit_secundario"><?php echo $producto; ?></h1>
+                    <p>Registro: Q-0694-028</p>
+                    <br>
+                    
+
+
+
+                    
+                    
+
+                    
+                    <h6 class="tit_tercero">Descripción:</h6>
+                    <p>Gentaplex 10% MDKR esta formulado a base de gentamicina, el cual es un antibiótico bactericida de amplio espectro del grupo de los aminoglucósidos preparado en solución estéril inyectable.</p>
+
+                    <h6 class="tit_tercero">Indicaciones:</h6>
+                    <p>Gentaplex 10% MDKR es recomendado en el tratamiento terapéutico de enfermedades respiratorias, digestivas y urinarias de cerdos y bovinos, cuyos agentes etiológicos sean sensibles a la fórmula como: Staphyloccoccus spp, Streptococcus spp, Proteus spp, Aerobacter spp, Salmonella spp, Escherichia coli, Pseudomona aeruginosa, Klebsiella pneumoniae.</p>
+
+                    <h6 class="tit_tercero">Fórmula:</h6>
+                    <p>
+                        Cada 1 ml contiene: <br>
+                        Gentamicina base (como sulfato de gentamicina) 100 mg. <br>
+                        Vehículo c.b.p.: 1 ml.
+                    </p>
+
+                    <h6 class="tit_tercero">Dosis:</h6>
+                    <p>
+                        Bovinos: 0.04 ml/Kg de peso (Equivalente a 4.4 mg/Kg) <br>
+                        Porcinos: 0.05 ml/Kg de peso (Equivalente a 5 mg/Kg) <br>
+                        Ovinos y Caprinos: 0.03 ml/Kg de peso (Equivalente a 3.3 mg/Kg)
+                    </p>
+
+                    <h6 class="tit_tercero">Advertencias:</h6>
+                    <p>No administre este producto 30 días antes del sacrificio de animales destinados al consumo humano. Su uso prolongado y bajo elevadas dosis, puede producir efectos ototóxicos y nefrotóxicos. No utilizar para consumo humano la leche de los animales tratados hasta 5 días después de la última aplicación. Almacenar en un lugar fresco y seco, protegido de la luz. </p>
+
+
+
+
+
+
+                    <h6 class="tit_tercero">Especies:</h6>
+                    <div class="con_especies">
+                        <!-- <div class="item_especies">
+                            <img src="Public/images/svg/gato.svg" alt="">
+                        </div>
+                        <div class="item_especies">
+                            <img src="Public/images/svg/perro.svg" alt="">
+                        </div> -->
+                        <div class="item_especies">
+                            <img src="Public/images/svg/cabra.svg" alt="">
+                        </div>
+                        <div class="item_especies">
+                            <img src="Public/images/svg/borrego.svg" alt="">
+                        </div>
+                        <!-- <div class="item_especies">
+                            <img src="Public/images/svg/gallina.svg" alt="">
+                        </div> -->
+                        <div class="item_especies">
+                            <img src="Public/images/svg/cerdito.svg" alt="">
+                        </div>
+                        <div class="item_especies">
+                            <img src="Public/images/svg/vaca.svg" alt="">
+                        </div>
+                        <!-- <div class="item_especies">
+                            <img src="Public/images/svg/caballo.svg" alt="">
+                        </div> -->
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img class="img-fluid" src="Public/images/gentaplex-10.jpg" alt="Mediker gentaplex 10">
+                    <div class="row">
+                        <div class="col-md-6 btn_right">
+                            <div class="content_btn">
+                                <a href="Public/pdf/Antibiotico-Gentaplex10.pdf" target="_blank" class="btn_gen btn_principal">Descargar ficha técnica</a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 btn_center">
+                            <div class="content_btn">
+                                <a href="contacto.php" class="btn_gen btn_secundario">Contacto</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <?php include_once "Public/includes/footer.php"; ?>
+</body>
+</html>

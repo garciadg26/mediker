@@ -82,10 +82,10 @@
                             </div>
 
                             <div class="col-12 col-lg-4">
-                                <a href="TF-PX-MDKR.php?cat=<?php echo $cadena; ?>" class="nom_producto d-block">
+                                <a href="#" class="nom_producto d-block">
                                     <div class="article-loop">
                                         <div class="cont_p_indv">
-                                            <img class="mask img-fluid" src="Public/images/neumoplex-plus-mdkr.jpg" alt="Mediker TF PX MDKR" width="130">
+                                            <img class="mask img-fluid" src="Public/images/tf-px-mdkr-01.jpg" alt="Mediker TF PX MDKR" width="130">
                                             <p>TF PX MDKR</p>
                                         </div>
                                     </div>
@@ -96,7 +96,7 @@
                                 <a href="Oxitetra-Premix.php?cat=<?php echo $cadena; ?>" class="nom_producto d-block">
                                     <div class="article-loop">
                                         <div class="cont_p_indv">
-                                            <img class="mask img-fluid" src="Public/images/neumoplex-plus-mdkr.jpg" alt="Mediker Oxitetra Premix 50%" width="130">
+                                            <img class="mask img-fluid" src="Public/images/oxitetra-premix-50-01.jpg" alt="Mediker Oxitetra Premix 50%" width="130">
                                             <p>Oxitetra Premix 50%</p>
                                         </div>
                                     </div>
@@ -107,7 +107,7 @@
                                 <a href="Naturex-Bio.php?cat=<?php echo $cadena; ?>" class="nom_producto d-block">
                                     <div class="article-loop">
                                         <div class="cont_p_indv">
-                                            <img class="mask img-fluid" src="Public/images/neumoplex-plus-mdkr.jpg" alt="Mediker Naturex Bio 20%" width="130">
+                                            <img class="mask img-fluid" src="Public/images/naturex-bio-20-01.jpg" alt="Mediker Naturex Bio 20%" width="130">
                                             <p>Naturex Bio 20%</p>
                                         </div>
                                     </div>
@@ -115,10 +115,10 @@
                             </div>
 
                             <div class="col-12 col-lg-4">
-                                <a href="CTC-PX-MDKR.php?cat=<?php echo $cadena; ?>" class="nom_producto d-block">
+                                <a href="#" class="nom_producto d-block">
                                     <div class="article-loop">
                                         <div class="cont_p_indv">
-                                            <img class="mask img-fluid" src="Public/images/neumoplex-plus-mdkr.jpg" alt="Mediker CTC PX MDKR" width="130">
+                                            <img class="mask img-fluid" src="Public/images/ctc-px-mdkr-01.jpg" alt="Mediker CTC PX MDKR" width="130">
                                             <p>CTC PX MDKR</p>
                                         </div>
                                     </div>
@@ -126,10 +126,10 @@
                             </div>
 
                             <div class="col-12 col-lg-4">
-                                <a href="Oxitetra-Premix.php?cat=<?php echo $cadena; ?>" class="nom_producto d-block">
+                                <a href="Oxitetra-Premix-20.php?cat=<?php echo $cadena; ?>" class="nom_producto d-block">
                                     <div class="article-loop">
                                         <div class="cont_p_indv">
-                                            <img class="mask img-fluid" src="Public/images/neumoplex-plus-mdkr.jpg" alt="Mediker Oxitetra Premix 20%" width="130">
+                                            <img class="mask img-fluid" src="Public/images/oxitetra-premix-50-01.jpg" alt="Mediker Oxitetra Premix 20%" width="130">
                                             <p>Oxitetra Premix 20%</p>
                                         </div>
                                     </div>

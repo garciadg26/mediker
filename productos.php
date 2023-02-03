@@ -40,32 +40,34 @@
                         <h4 class="tit_secundario">ANTIBIÓTICOS Y QUIMIOTERÁPICOS</h4>
 
                         <!-- PRIMERA FILA -->
-                        <div class="row">
-                            <!-- PRODUCTOS INDIV -->
-                            <div class="article-loop">
-                                <div class="cont_p_indv">
-                                    <img class="mask img-fluid" src="Public/images/mediker_bromeg_fosfoplex_10.jpg" alt="">
-                                    <a href="fosfoflex.php" class="nom_producto">FOSFOPLEX E 10%</a>
+                        
+                          <div class="row">
+                                <!-- PRODUCTOS INDIV -->
+                                <div class="article-loop">
+                                    <div class="cont_p_indv">
+                                        <img class="mask img-fluid" src="Public/images/mediker_bromeg_fosfoplex_10.jpg" alt="">
+                                        <a href="fosfoflex.php" class="nom_producto">FOSFOPLEX E 10%</a>
+                                    </div>
                                 </div>
-                            </div>
-                            <!-- PRODUCTOS INDIV -->
-                            <div class="article-loop">
-                                <div class="cont_p_indv">
-                                    <img class="mask img-fluid" src="Public/images/mediker_bromeg_fosfoplex_10.jpg" alt="">
-                                    <a href="fosfoflex.php" class="nom_producto">FOSFOPLEX E 10%</a>
+                                <!-- PRODUCTOS INDIV -->
+                                <div class="article-loop">
+                                    <div class="cont_p_indv">
+                                        <img class="mask img-fluid" src="Public/images/mediker_bromeg_fosfoplex_10.jpg" alt="">
+                                        <a href="fosfoflex.php" class="nom_producto">FOSFOPLEX E 10%</a>
+                                    </div>
                                 </div>
-                            </div>
-                            <!-- PRODUCTOS INDIV -->
-                            <div class="article-loop">
-                                <div class="cont_p_indv">
-                                    <img class="mask img-fluid" src="Public/images/mediker_bromeg_fosfoplex_10.jpg" alt="">
-                                    <a href="fosfoflex.php" class="nom_producto">FOSFOPLEX E 10%</a>
+                                <!-- PRODUCTOS INDIV -->
+                                <div class="article-loop">
+                                    <div class="cont_p_indv">
+                                        <img class="mask img-fluid" src="Public/images/mediker_bromeg_fosfoplex_10.jpg" alt="">
+                                        <a href="fosfoflex.php" class="nom_producto">FOSFOPLEX E 10%</a>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
+                          </div>
+                        
 
                         <!-- 02 FILA -->
-                        <div class="row">
+                        
                             <!-- PRODUCTOS INDIV -->
                             <div class="article-loop">
                                 <div class="cont_p_indv">
@@ -87,10 +89,10 @@
                                     <h6 class="nom_producto">FOSFOPLEX E 10%</h6>
                                 </div>
                             </div>
-                        </div>
+                        
 
                         <!-- 03 FILA -->
-                        <div class="row">
+                        
                             <!-- PRODUCTOS INDIV -->
                             <div class="article-loop">
                                 <div class="cont_p_indv">
@@ -112,10 +114,10 @@
                                     <h6 class="nom_producto">FOSFOPLEX E 10%</h6>
                                 </div>
                             </div>
-                        </div>
+                        
                         
                         <!-- 04 FILA -->
-                        <div class="row">
+                        
                             <!-- PRODUCTOS INDIV -->
                             <div class="article-loop">
                                 <div class="cont_p_indv">
@@ -137,10 +139,10 @@
                                     <h6 class="nom_producto">FOSFOPLEX E 10%</h6>
                                 </div>
                             </div>
-                        </div>
+                        
 
                         <!-- 05 FILA -->
-                        <div class="row">
+                        
                             <!-- PRODUCTOS INDIV -->
                             <div class="article-loop">
                                 <div class="cont_p_indv">
@@ -162,7 +164,7 @@
                                     <h6 class="nom_producto">FOSFOPLEX E 10%</h6>
                                 </div>
                             </div>
-                        </div>
+                        
                     </div>
                 </div>
             </div>
