@@ -156,7 +156,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                     <article class="card_product home__photo2">
                         <div class="cont_card_icon">
-                            <img src="Public/images/svg/vaca_lechera.svg" alt="Mediker icono de una vaca lechera">
+                            <img src="Public/images/svg/vaca.svg" alt="Mediker icono de una vaca lechera">
                             <h3 class="tit_tercero">GANADO ENGORDA</h3>
                             <p class="txt_general">Formulamos productos diferenciados que le apoyan en mejorar la salud de sus animales.</p>
                         </div>
@@ -166,7 +166,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                     <article class="card_product home__photo3">
                         <div class="cont_card_icon">
-                            <img src="Public/images/svg/vaca_lechera.svg" alt="Mediker icono de una vaca lechera">
+                            <img src="Public/images/svg/gallo.svg" alt="Mediker icono de una vaca lechera">
                             <h3 class="tit_tercero">AVES</h3>
                             <p class="txt_general">A la vanguardia e innovando es como apoyamos a nuestros clientes para que sean más productivos.</p>
                         </div>
@@ -176,7 +176,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                     <article class="card_product home__photo1">
                         <div class="cont_card_icon">
-                            <img src="Public/images/svg/vaca_lechera.svg" alt="Mediker icono de una vaca lechera">
+                            <img src="Public/images/svg/cerdito.svg" alt="Mediker icono de una vaca lechera">
                             <h3 class="tit_tercero">CERDOS</h3>
                             <p class="txt_general">Formulamos productos que le ayudan en mejorar la calidad de su producción.</p>
                         </div>
@@ -186,7 +186,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                     <article class="card_product home__photo2">
                         <div class="cont_card_icon">
-                            <img src="Public/images/svg/vaca_lechera.svg" alt="Mediker icono de una vaca lechera">
+                            <img src="Public/images/svg/caballo.svg" alt="Mediker icono de una vaca lechera">
                             <h3 class="tit_tercero">EQUINOS</h3>
                             <p class="txt_general">Fabricamos una amplia línea de productos de alta calidad certificada.</p>
                         </div>
@@ -196,7 +196,7 @@
                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                     <article class="card_product home__photo3">
                         <div class="cont_card_icon">
-                            <img src="Public/images/svg/vaca_lechera.svg" alt="Mediker icono de una vaca lechera">
+                            <img src="Public/images/svg/cabra.svg" alt="Mediker icono de una vaca lechera">
                             <h3 class="tit_tercero">OVICAPRINOS</h3>
                             <p class="txt_general">Nuestro laboratorio esta certificado, asegurando así la alta calidad de nuestros productos.</p>
                         </div>

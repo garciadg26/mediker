@@ -18,9 +18,9 @@
                         <a href="productos.php">
                             <li class="item_footer_menu active">PRODUCTOS</li>
                         </a>
-                        <a href="noticias.php">
+                        <!-- <a href="noticias.php">
                             <li class="item_footer_menu">NOTICIAS</li>
-                        </a>
+                        </a> -->
                         <a href="distribuidores.php">
                             <li class="item_footer_menu">DISTRIBUIDORES</li>
                         </a>

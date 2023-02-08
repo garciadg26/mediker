@@ -166,4 +166,4 @@
 /* This part is just for the demo,
 not actually part of the plugin */
 
-$('.article-loop').paginate(12);
+$('.pag').paginate(12);
