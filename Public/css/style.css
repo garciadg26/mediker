@@ -125,7 +125,12 @@ p, a{
 .txt_general_blue{
     color: var(--color-azul-normal);
 }
-
+.modal-title{
+    font-family: var(--font-acumin-pro-condensed);
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 900;
+}
 /* __BTN__ */
 .btn_gen{
     position: relative;
@@ -151,7 +156,7 @@ p, a{
     background-color: var(--color-azul-normal);
     color: var(--color-white);
 }
-.btn_principal::before {
+/* .btn_principal::before {
     content: "";
     display: inline-block;
     height: 20px;
@@ -166,7 +171,7 @@ p, a{
     filter: blur(10px) brightness(0.95);
     transform-style: preserve-3d;
     transition: all 0.3s ease-out;
-}
+} */
 .btn_principal:hover {
     text-decoration: none;
     color: var(--color-white);
@@ -176,6 +181,28 @@ p, a{
     bottom: -5px;
     filter: blur(10px) brightness(0.95);
 }
+button{
+    border: none;
+    font-family: var(--font-acumin-pro-condensed);
+    font-size: 1rem;
+    z-index: 0;
+}
+button.btn_principal{
+    margin-top: 18px;
+    position: absolute;
+    bottom: 36px;
+}
+.info_producto .content_btn{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.info_producto button.btn_principal{
+    margin-top: 18px;
+    position: relative;
+    bottom: 36px;
+    display: block;
+}
+
 
     /* __BTN SECUNDARIO__ */
 .btn_secundario{
@@ -183,7 +210,7 @@ p, a{
     color: var(--color-azul-normal);
     border: 2px solid var(--color-azul-normal);
 }
-.btn_secundario::before {
+/* .btn_secundario::before {
     content: "";
     display: inline-block;
     height: 20px;
@@ -198,7 +225,7 @@ p, a{
     filter: blur(10px) brightness(0.95);
     transform-style: preserve-3d;
     transition: all 0.3s ease-out;
-}
+} */
 .btn_secundario:hover {
     text-decoration: none;
     color: var(--color-azul-normal);
@@ -1193,7 +1220,7 @@ h4.tit_slider{
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eef0f3",endColorstr="#ffffff",GradientType=1);
 }
 #distribuidores .card_product{
-    min-height: 438px;
+    min-height: 518px;
     border: 1px solid var(--color-gris-claro-azulado);
 }
 #distribuidores .cont_card_icon img{
@@ -1270,6 +1297,10 @@ h4.tit_slider{
     border: 0px;
     font-family: var(--font-acumin-pro-condensed);
 }
+#form_ficha_tecnica input, #form_ficha_tecnica label{
+    font-family: var(--font-acumin-pro-condensed);
+}
+
 
 /* __MENSAJE DE ERROR__ */
 .formulario__input-error {
@@ -1283,7 +1314,7 @@ h4.tit_slider{
 .formulario__validacion-estado {
     position: absolute;
     right: 16px;
-    top: 38px;
+    top: 46px;
     z-index: 100;
     font-size: 16px;
     opacity: 0;
@@ -1298,18 +1329,21 @@ h4.tit_slider{
     text-align: center;
 	display: none;
 }
+#form_ficha_tecnica .formulario__mensaje{
+    margin-top: 12px;
+}
 .formulario__mensaje-activo {
 	display: block;
 }
 .formulario__mensaje-exito {
-	font-size: 14px;
+    font-size: 1.1rem;
     height: 45px;
-	line-height: 45px;
-	background: #119200;
-	padding: 0 15px;
-	border-radius: 3px;
+    line-height: 45px;
+    background: #31b51f;
+    padding: 0 15px;
+    border-radius: 3px;
     margin-top: 16px;
-	color: var(--color-white);
+    color: var(--color-white)!important;
     text-align: center;
 	display: none;
 }
@@ -1339,6 +1373,10 @@ h4.tit_slider{
 	border: 3px solid #bb2929;
 }
 
+    /* FICHA TÉCNICA */
+#grupo__telefono{
+    margin-top: 20px;
+}
 
     /* __RESPONSIVE__ */
 @media screen and (max-width:1366px){

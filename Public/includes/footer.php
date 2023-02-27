@@ -105,7 +105,9 @@
 
     <!-- SCRIPT GENERALES -->
     <script type="text/javascript" src="Public/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="Public/js/main.js?ver=1.1.12"></script>
+    <script type="text/javascript" src="Public/js/main.js?ver=1.1.13"></script>
 
     <!-- SCROLL REVEAL -->
     <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script type="text/javascript" src="Public/js/validarFormFicha.js?ver=1.1.29"></script>

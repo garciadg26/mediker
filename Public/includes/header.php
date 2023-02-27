@@ -28,6 +28,6 @@
     <link rel="stylesheet" href="Public/css/ionicons.min.css">
     
     <!-- ESTILOS GENERALES -->
-    <link rel="stylesheet" href="Public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Public/css/bootstrap.min.css?ver=1.0.1">
     <link rel="stylesheet" href="Public/css/animate.css">
-    <link rel="stylesheet" href="Public/css/style.css?ver=1.1.22">
+    <link rel="stylesheet" href="Public/css/style.css?ver=1.1.30">

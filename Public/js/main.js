@@ -58,7 +58,7 @@ function menuActive(){
     // DISTRIBUIDORES
     if(document.URL.includes('distribuidores.php')){
         $('.navbar-nav li, .list_footer_menu a li').removeClass("active");
-        $('.navbar-nav li:nth-child(6), .list_footer_menu a:nth-child(6) li').addClass("active");       
+        $('.navbar-nav li:nth-child(5), .list_footer_menu a:nth-child(5) li').addClass("active");       
         header.classList.add('color_white');
     }
     // CONTACTO

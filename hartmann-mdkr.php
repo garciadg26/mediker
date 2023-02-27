@@ -88,15 +88,12 @@
                 <div class="col-md-6">
                     <img class="img-fluid" src="Public/images/hartmann-mdkr.jpg" alt="">
                     <div class="row">
-                        <div class="col-md-6 btn_right">
+                        <div class="col-md-12">
                             <div class="content_btn">
-                                <a href="Public/pdf/Sueros-Hartmann.pdf" target="_blank" class="btn_gen btn_principal">Descargar ficha técnica</a>
+                                <button type="button" class="btn_gen btn_principal" data-toggle="modal" data-target="#exampleModal">Descargar ficha técnica</button>
                             </div>
-                        </div>
-                        <div class="col-md-6 btn_center">
-                            <div class="content_btn">
-                                <a href="#" class="btn_gen btn_secundario">Contacto</a>
-                            </div>
+                            <!-- MODAL -->
+                            <?php include_once "Public/includes/modalDownload.php"; ?>
                         </div>
                     </div>
                 </div>
